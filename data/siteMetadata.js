@@ -1,7 +1,7 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
   title: 'WealthEuro',
-  author: 'WealthEuro Editorial',
+  author: 'Marcus Reinhardt',
   headerTitle: 'WealthEuro',
   description:
     'European financial intelligence, market analysis, and wealth strategies. Covering crypto, global markets, and investment insights across the Eurozone.',
