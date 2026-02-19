@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "tags": "Tags",
+    "about": "Over",
+    "projects": "Projecten"
+  },
+  "blog": {
+    "allPosts": "Alle berichten",
+    "previous": "Vorige",
+    "next": "Volgende",
+    "backToBlog": "Terug naar de blog",
+    "publishedOn": "Gepubliceerd op",
+    "readMore": "Lees meer"
+  },
+  "common": {
+    "tags": "Tags",
+    "previousArticle": "Vorig artikel",
+    "nextArticle": "Volgend artikel"
+  },
+  "share": {
+    "shareThis": "Deel dit artikel",
+    "shareOn": "Delen op",
+    "copyLink": "Link kopiëren",
+    "copied": "Gekopieerd!"
+  }
+}

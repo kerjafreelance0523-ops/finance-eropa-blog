@@ -1,0 +1,28 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "blog": "Blog",
+    "tags": "Tags",
+    "about": "Über uns",
+    "projects": "Projekte"
+  },
+  "blog": {
+    "allPosts": "Alle Beiträge",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "backToBlog": "Zurück zum Blog",
+    "publishedOn": "Veröffentlicht am",
+    "readMore": "Weiterlesen"
+  },
+  "common": {
+    "tags": "Tags",
+    "previousArticle": "Vorheriger Artikel",
+    "nextArticle": "Nächster Artikel"
+  },
+  "share": {
+    "shareThis": "Artikel teilen",
+    "shareOn": "Teilen auf",
+    "copyLink": "Link kopieren",
+    "copied": "Kopiert!"
+  }
+}
