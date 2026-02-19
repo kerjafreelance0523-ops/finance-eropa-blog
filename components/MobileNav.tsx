@@ -15,7 +15,6 @@ const hrefToNavKey: Record<string, string> = {
   '/blog': 'blog',
   '/tags': 'tags',
   '/about': 'about',
-  '/projects': 'projects',
 }
 
 const MobileNav = () => {

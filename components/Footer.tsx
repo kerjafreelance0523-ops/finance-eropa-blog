@@ -1,8 +1,10 @@
+import { getTranslations } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import siteMetadata from '@/data/siteMetadata'
 import SocialIcon from '@/components/social-icons'
 
-export default function Footer() {
+export default async function Footer() {
+  const t = await getTranslations('nav')
   return (
     <footer className="mt-16 border-t border-gray-200 bg-gray-900 pt-16 pb-8 text-white dark:border-gray-800 dark:bg-gray-950">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
@@ -34,17 +36,22 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-300">
               <li>
                 <Link href="/blog" prefetch className="transition-colors hover:text-white">
-                  Blog
+                  {t('blog')}
                 </Link>
               </li>
               <li>
                 <Link href="/tags" prefetch className="transition-colors hover:text-white">
-                  Tags
+                  {t('tags')}
                 </Link>
               </li>
               <li>
                 <Link href="/about" prefetch className="transition-colors hover:text-white">
-                  About
+                  {t('about')}
+                </Link>
+              </li>
+              <li>
+                <Link href="/sitemap" prefetch className="transition-colors hover:text-white">
+                  {t('sitemap')}
                 </Link>
               </li>
             </ul>
