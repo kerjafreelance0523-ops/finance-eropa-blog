@@ -103,9 +103,9 @@ export default function Home({ posts }) {
                       {formatDate(post.date, siteMetadata.locale)}
                     </span>
                   </div>
-                  <h4 className="text-primary-900 group-hover:text-primary-600 dark:group-hover:text-primary-300 font-serif text-lg leading-snug font-semibold transition-colors dark:text-white">
+                  <h3 className="text-primary-900 group-hover:text-primary-600 dark:group-hover:text-primary-300 font-serif text-lg leading-snug font-semibold transition-colors dark:text-white">
                     {post.title}
-                  </h4>
+                  </h3>
                 </div>
                 <div className="h-20 w-20 shrink-0 overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
                   {post.images?.[0] ? (

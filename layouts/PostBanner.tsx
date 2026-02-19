@@ -44,7 +44,7 @@ export default function PostBanner({ content, children }: LayoutProps) {
           </div>
           <PageTitle>{title}</PageTitle>
           <div className="mt-4 flex items-center gap-4 text-sm text-gray-500 dark:text-gray-400">
-            <time dateTime={date}>
+            <time dateTime={date} suppressHydrationWarning>
               {new Date(date).toLocaleDateString(siteMetadata.locale, {
                 year: 'numeric',
                 month: 'long',

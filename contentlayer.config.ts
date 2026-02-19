@@ -134,6 +134,10 @@ function createSearchIndex(allBlogs) {
         JSON.stringify(allCoreContent(sortPosts(localeBlogs)))
       )
     }
+    writeFileSync(
+      'public/search.json',
+      JSON.stringify(allCoreContent(sortPosts(allBlogs)))
+    )
     console.log('Local search index generated...')
   }
 }

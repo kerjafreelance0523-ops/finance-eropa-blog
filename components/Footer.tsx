@@ -112,7 +112,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-gray-400 md:flex-row">
-          <p>
+          <p suppressHydrationWarning>
             &copy; {new Date().getFullYear()} {siteMetadata.headerTitle}. All rights reserved.
           </p>
           <div className="flex gap-6">

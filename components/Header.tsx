@@ -58,7 +58,7 @@ const Header = async () => {
             <span className="text-primary-900 hidden font-serif text-2xl font-bold tracking-tight sm:block dark:text-white">
               {siteMetadata.headerTitle}
             </span>
-            <span className="hidden text-[10px] font-medium tracking-widest text-gray-500 uppercase sm:block dark:text-gray-400">
+            <span className="hidden text-[10px] font-medium tracking-widest text-gray-600 uppercase sm:block dark:text-gray-300">
               Premium European Finance
             </span>
           </div>

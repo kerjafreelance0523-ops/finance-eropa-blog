@@ -101,7 +101,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f0f4f8" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0a1929" />
       <meta name="google-site-verification" content="33KXzGh9Ug2tLMLGVl2ZBkSkAZtOAl1NHhBcwmx9UY8" />
-      <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossOrigin="anonymous" />
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       <body className="bg-primary-50 text-primary-900 pl-[calc(100vw-100%)] font-sans antialiased dark:bg-gray-950 dark:text-gray-100">
         {adsenseId && (
