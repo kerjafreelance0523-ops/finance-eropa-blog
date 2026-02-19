@@ -96,6 +96,16 @@ module.exports = () => {
           source: '/(.*)',
           headers: securityHeaders,
         },
+        // TTFB: edge cache for page documents (exclude _next)
+        {
+          source: '/((?!_next).*)',
+          headers: [
+            {
+              key: 'Cache-Control',
+              value: 'public, max-age=0, s-maxage=3600, stale-while-revalidate=86400',
+            },
+          ],
+        },
       ]
     },
     webpack: (config, options) => {

@@ -61,7 +61,15 @@ export default function PostBanner({ content, children }: LayoutProps) {
         </header>
         <Bleed>
           <div className="relative aspect-[2/1] w-full overflow-hidden rounded-xl">
-            <Image src={displayImage} alt={title} fill className="object-cover" />
+            <Image
+              src={displayImage}
+              alt={title}
+              fill
+              sizes="(max-width: 768px) 100vw, 1200px"
+              className="object-cover"
+              priority
+              fetchPriority="high"
+            />
           </div>
         </Bleed>
         <div className="prose prose-lg prose-slate dark:prose-invert max-w-none pt-10 pb-8 font-serif">

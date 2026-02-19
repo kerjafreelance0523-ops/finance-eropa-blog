@@ -137,8 +137,10 @@ export default async function PostLayout({
                   alt={title}
                   width={960}
                   height={540}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 960px"
                   className="h-auto w-full object-cover"
                   priority={true}
+                  fetchPriority="high"
                 />
                 <figcaption className="mt-2 text-center text-xs text-gray-500 dark:text-gray-400">
                   {title}

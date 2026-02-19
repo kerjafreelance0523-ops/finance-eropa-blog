@@ -75,6 +75,9 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       className={`${inter.variable} ${lora.variable} scroll-smooth`}
       suppressHydrationWarning
     >
+      {/* Preconnect to critical origins for faster FCP/LCP (fonts, same-origin) */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       <link
         rel="apple-touch-icon"
         sizes="76x76"
