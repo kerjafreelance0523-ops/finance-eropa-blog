@@ -9,6 +9,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -113,6 +114,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <NextIntlClientProvider messages={messages}>
           <ThemeProviders>{children}</ThemeProviders>
         </NextIntlClientProvider>
+        <SpeedInsights />
       </body>
     </html>
   )
