@@ -44,7 +44,7 @@ export default function LanguageSwitcher() {
             className={`min-w-[2rem] rounded-md px-2 py-1 text-center text-xs font-semibold transition-colors ${
               locale === code
                 ? 'bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900'
-                : 'text-gray-500 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-100'
+                : 'text-gray-700 hover:bg-gray-100 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-gray-100'
             }`}
             aria-label={`Switch to ${label}`}
             aria-current={locale === code ? 'true' : undefined}

@@ -38,7 +38,7 @@ export default function AdSlot({
   if (!adsenseId || !slot) {
     return (
       <div
-        className={`flex items-center justify-center rounded-lg border border-dashed border-gray-300 bg-gray-100 text-xs font-medium tracking-widest text-gray-400 uppercase dark:border-gray-700 dark:bg-gray-800/50 dark:text-gray-600 ${sizeClass} ${className}`}
+        className={`flex items-center justify-center rounded-lg border border-dashed border-gray-300 bg-gray-100 text-xs font-medium tracking-widest text-gray-600 uppercase dark:border-gray-700 dark:bg-gray-800/50 dark:text-gray-400 ${sizeClass} ${className}`}
       >
         <span>Sponsored Content</span>
       </div>

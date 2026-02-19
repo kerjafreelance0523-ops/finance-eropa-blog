@@ -30,7 +30,8 @@ export default function Home({ posts }) {
                       alt={featuredPost.title}
                       width={800}
                       height={450}
-                      priority={true}
+                      priority
+                      fetchPriority="high"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 66vw, 800px"
                       className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
@@ -60,7 +61,7 @@ export default function Home({ posts }) {
                 <p className="text-primary-900 text-sm font-semibold dark:text-white">
                   {siteMetadata.author}
                 </p>
-                <p className="text-xs text-gray-500 dark:text-gray-400">
+                <p className="text-xs text-gray-600 dark:text-gray-300">
                   {formatDate(featuredPost.date, siteMetadata.locale)}
                   {featuredPost.readingTime?.text && ` · ${featuredPost.readingTime.text}`}
                 </p>
@@ -81,9 +82,9 @@ export default function Home({ posts }) {
           </article>
 
           <aside className="flex flex-col gap-6 border-l-0 pl-0 lg:col-span-4 lg:border-l lg:border-gray-200 lg:pl-6 dark:lg:border-gray-700">
-            <h3 className="mb-2 text-sm font-bold tracking-widest text-gray-500 uppercase dark:text-gray-400">
+            <h2 className="mb-2 text-sm font-bold tracking-widest text-gray-600 uppercase dark:text-gray-300">
               {t('allPosts')}
-            </h3>
+            </h2>
             {sidebarPosts.map((post) => (
               <Link
                 key={post.slug}
@@ -98,7 +99,7 @@ export default function Home({ posts }) {
                         {String(post.tags[0])}
                       </span>
                     )}
-                    <span className="text-[10px] text-gray-500 dark:text-gray-400">
+                    <span className="text-[10px] text-gray-600 dark:text-gray-300">
                       {formatDate(post.date, siteMetadata.locale)}
                     </span>
                   </div>
@@ -168,6 +169,7 @@ export default function Home({ posts }) {
           <Link
             href="/blog"
             prefetch
+            aria-label="View all blog posts"
             className="text-primary-700 hover:text-primary-900 dark:text-primary-300 flex items-center gap-1 text-sm font-semibold hover:underline dark:hover:text-white"
           >
             {t('allPosts')} &rarr;
@@ -218,7 +220,7 @@ export default function Home({ posts }) {
                     {summary}
                   </p>
                   <div className="mt-auto flex items-center justify-between border-t border-gray-100 pt-4 dark:border-gray-700">
-                    <span className="text-xs font-medium text-gray-500 dark:text-gray-400">
+                    <span className="text-xs font-medium text-gray-600 dark:text-gray-300">
                       {readingTime?.text || formatDate(date, siteMetadata.locale)}
                     </span>
                     <Link
@@ -239,6 +241,7 @@ export default function Home({ posts }) {
             <Link
               href="/blog"
               prefetch
+              aria-label="View all blog posts"
               className="text-primary-900 hover:bg-primary-50 flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-6 py-3 font-semibold transition-colors dark:border-gray-600 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
             >
               {t('allPosts')}

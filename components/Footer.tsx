@@ -111,7 +111,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="flex flex-col items-center justify-between gap-4 text-xs text-gray-500 md:flex-row">
+        <div className="flex flex-col items-center justify-between gap-4 text-xs text-gray-400 md:flex-row">
           <p>
             &copy; {new Date().getFullYear()} {siteMetadata.headerTitle}. All rights reserved.
           </p>
