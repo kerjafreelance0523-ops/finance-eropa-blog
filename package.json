@@ -3,6 +3,8 @@
   "version": "2.4.0",
   "private": true,
   "scripts": {
+    "blog:optimize-images": "node scripts/optimize-blog-images.mjs",
+    "blog:check": "node scripts/validate-blog-prd.mjs",
     "start": "next dev",
     "dev": "next dev",
     "build": "next build && NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
@@ -36,6 +38,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "reading-time": "1.5.0",
+    "sharp": "^0.33.5",
     "rehype-autolink-headings": "^7.1.0",
     "rehype-citation": "^2.3.2",
     "rehype-katex": "^7.0.1",

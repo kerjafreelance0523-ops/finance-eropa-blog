@@ -1,4 +1,4 @@
-import { genPageMetadata } from 'app/seo'
+import { genPageMetadata } from '../../seo'
 import ListLayout from '@/layouts/ListLayoutWithTags'
 import { getBlogsByLocale } from '@/lib/blog'
 import tagDataEn from 'app/tag-data-en.json'

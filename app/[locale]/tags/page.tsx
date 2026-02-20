@@ -1,10 +1,10 @@
 import { Link } from '@/i18n/navigation'
 import Tag from '@/components/Tag'
 import { slug } from 'github-slugger'
-import tagDataEn from 'app/tag-data-en.json'
-import tagDataDe from 'app/tag-data-de.json'
-import tagDataNl from 'app/tag-data-nl.json'
-import { genPageMetadata } from 'app/seo'
+import tagDataEn from '../../tag-data-en.json'
+import tagDataDe from '../../tag-data-de.json'
+import tagDataNl from '../../tag-data-nl.json'
+import { genPageMetadata } from '../../seo'
 
 const tagDataByLocale: Record<string, Record<string, number>> = {
   en: tagDataEn as Record<string, number>,

@@ -21,7 +21,6 @@ import rehypeKatex from 'rehype-katex'
 import rehypeKatexNoTranslate from 'rehype-katex-notranslate'
 import rehypeCitation from 'rehype-citation'
 import rehypePrismPlus from 'rehype-prism-plus'
-import rehypePresetMinify from 'rehype-preset-minify'
 import siteMetadata from './data/siteMetadata'
 import { allCoreContent, sortPosts } from 'pliny/utils/contentlayer.js'
 import prettier from 'prettier'
@@ -158,6 +157,7 @@ export const Blog = defineDocumentType(() => ({
     layout: { type: 'string' },
     bibliography: { type: 'string' },
     canonicalUrl: { type: 'string' },
+    keywords: { type: 'list', of: { type: 'string' } },
   },
   computedFields: {
     ...computedFields,
@@ -237,7 +237,6 @@ export default makeSource({
       rehypeKatexNoTranslate,
       [rehypeCitation, { path: path.join(root, 'data') }],
       [rehypePrismPlus, { defaultLanguage: 'js', ignoreMissing: true }],
-      rehypePresetMinify,
     ],
   },
   onSuccess: async (importData) => {

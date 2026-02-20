@@ -159,7 +159,14 @@ input:-webkit-autofill:focus {
 }
 
 .katex-display {
+  max-width: 100%;
   overflow: auto hidden;
+}
+
+.prose pre,
+.prose code {
+  max-width: 100%;
+  overflow-x: auto;
 }
 
 .content-header-link {

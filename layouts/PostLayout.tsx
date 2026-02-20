@@ -63,7 +63,7 @@ export default async function PostLayout({
       />
       <article className="py-10">
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-12">
-          <div className="lg:col-span-8">
+          <div className="min-w-0 lg:col-span-8">
             <header className="pb-8">
               <div className="mb-4 flex items-center gap-2 text-sm">
                 <Link
@@ -148,7 +148,7 @@ export default async function PostLayout({
               </figure>
             )}
 
-            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-300 dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
+            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-300 dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none min-w-0 overflow-x-hidden pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
               {children}
             </div>
 

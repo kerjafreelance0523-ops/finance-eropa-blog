@@ -2,10 +2,36 @@ import { allBlogs } from 'contentlayer/generated'
 import { allCoreContent, sortPosts, coreContent } from 'pliny/utils/contentlayer'
 import type { Blog } from 'contentlayer/generated'
 
+function isPostVisible(post: Blog, locale: string, now: Date): boolean {
+  if (post.locale !== locale) {
+    return false
+  }
+
+  const isDev = process.env.NODE_ENV === 'development'
+
+  if (!isDev && post.draft) {
+    return false
+  }
+
+  if (!post.date) {
+    return isDev
+  }
+
+  const publishedAt = new Date(post.date)
+  if (Number.isNaN(publishedAt.getTime())) {
+    return isDev
+  }
+
+  if (isDev) {
+    return true
+  }
+
+  return publishedAt <= now
+}
+
 export function getBlogsByLocale(locale: string) {
-  const filtered = allBlogs.filter(
-    (b) => b.locale === locale && (process.env.NODE_ENV === 'development' || !b.draft)
-  )
+  const now = new Date()
+  const filtered = allBlogs.filter((b) => isPostVisible(b as Blog, locale, now))
   return allCoreContent(sortPosts(filtered))
 }
 
@@ -19,11 +45,9 @@ export function getRelatedPosts(
   tags: string[],
   maxPosts: number = 3
 ) {
+  const now = new Date()
   const localePosts = allBlogs.filter(
-    (post) =>
-      post.locale === locale &&
-      post.slug !== currentSlug &&
-      (process.env.NODE_ENV === 'development' || !post.draft)
+    (post) => post.slug !== currentSlug && isPostVisible(post as Blog, locale, now)
   )
 
   const scored = localePosts.map((post) => {
