@@ -2,7 +2,6 @@ import 'css/tailwind.css'
 import 'remark-github-blockquote-alert/alert.css'
 
 import { Inter, Lora } from 'next/font/google'
-import Script from 'next/script'
 import { getLocale } from 'next-intl/server'
 import { getMessages } from 'next-intl/server'
 import { NextIntlClientProvider } from 'next-intl'
@@ -10,6 +9,7 @@ import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
+import ConsentAwareAdSense from '@/components/ConsentAwareAdSense'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -112,13 +112,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         href={`${siteMetadata.siteUrl}${basePath}/sitemap.xml`}
       />
       <body className="bg-primary-50 text-primary-900 pl-[calc(100vw-100%)] font-sans antialiased dark:bg-gray-950 dark:text-gray-100">
-        {adsenseId && (
-          <Script
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseId}`}
-            strategy="lazyOnload"
-            crossOrigin="anonymous"
-          />
-        )}
+        {adsenseId && <ConsentAwareAdSense publisherId={adsenseId} />}
         <NextIntlClientProvider messages={messages}>
           <ThemeProviders>{children}</ThemeProviders>
         </NextIntlClientProvider>

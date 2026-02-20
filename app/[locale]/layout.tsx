@@ -7,6 +7,7 @@ import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
 import SectionContainer from '@/components/SectionContainer'
 import Footer from '@/components/Footer'
+import CookieConsentBanner from '@/components/CookieConsentBanner'
 import siteMetadata from '@/data/siteMetadata'
 
 type Props = {
@@ -34,6 +35,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Footer />
         </SearchProvider>
       </SectionContainer>
+      <CookieConsentBanner />
     </>
   )
 }

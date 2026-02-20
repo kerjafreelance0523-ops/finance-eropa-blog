@@ -119,9 +119,15 @@ export default async function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-gray-400 md:flex-row">
-          <p suppressHydrationWarning>
-            &copy; {new Date().getFullYear()} {siteMetadata.headerTitle}. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-2">
+            <p suppressHydrationWarning>
+              &copy; {new Date().getFullYear()} {siteMetadata.headerTitle}. All rights reserved.
+            </p>
+            <p className="text-xs text-gray-500">
+              Content on this site is for information only and is not investment or financial
+              advice. Past performance and analysis do not guarantee future results.
+            </p>
+          </div>
           <div className="flex gap-6">
             <span>Zurich</span>
             <span>London</span>
