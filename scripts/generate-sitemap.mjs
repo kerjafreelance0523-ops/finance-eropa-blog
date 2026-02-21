@@ -1,6 +1,11 @@
 /**
  * Generate sitemap.xml from Contentlayer data.
- * Run after build (contentlayer generated) or: pnpm exec contentlayer build && pnpm sitemap
+ *
+ * NOTE: This project uses a static, online-generated sitemap at public/sitemap.xml.
+ * This script is for reference/fallback only. Do not run unless you intend to
+ * regenerate the sitemap from Contentlayer (it will overwrite public/sitemap.xml).
+ *
+ * Run after build (contentlayer generated): node scripts/generate-sitemap.mjs
  * Output: public/sitemap.xml
  */
 import { writeFileSync, mkdirSync } from 'fs'
