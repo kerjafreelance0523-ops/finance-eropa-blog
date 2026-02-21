@@ -71,7 +71,8 @@ function addUrl(urls, pathname, lastmod = null, priority = 0.8) {
   if (pathname.startsWith('http')) {
     loc = pathname
   } else {
-    const raw = (SITE_URL + '/' + pathname).replace(/\/+/g, '/').replace(/\/$/, '')
+    const pathNorm = pathname.replace(/^\/+/, '')
+    const raw = (SITE_URL + (pathNorm ? '/' + pathNorm : '')).replace(/\/$/, '')
     const trailing = pathname === '' || pathname.endsWith('/')
     loc = raw + (trailing ? '/' : '')
   }

@@ -113,6 +113,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         href={`${siteMetadata.siteUrl}${basePath}/sitemap.xml`}
       />
       <script src="https://quge5.com/88/tag.min.js" data-zone="213155" async data-cfasync="false" />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6822525809788248"
+        crossOrigin="anonymous"
+      />
       <body className="bg-primary-50 text-primary-900 pl-[calc(100vw-100%)] font-sans antialiased dark:bg-gray-950 dark:text-gray-100">
         {adsenseId && <ConsentAwareAdSense publisherId={adsenseId} />}
         <NextIntlClientProvider messages={messages}>
