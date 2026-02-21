@@ -1,25 +1,25 @@
+import Link from 'next/link'
 import SectionContainer from '@/components/SectionContainer'
 import { genPageMetadata } from '../../seo'
 import siteMetadata from '@/data/siteMetadata'
 
 export const metadata = genPageMetadata({
   title: 'Privacy Policy',
-  description: 'Privacy Policy for WealthEuro - Learn how we collect, use, and protect your personal data.',
+  description:
+    'Privacy Policy for WealthEuro - Learn how we collect, use, and protect your personal data.',
 })
 
 export default function PrivacyPolicyPage() {
   return (
     <SectionContainer>
-      <div className="prose prose-lg mx-auto max-w-4xl dark:prose-invert">
-        <h1 className="mb-8 font-serif text-4xl font-bold text-primary-900 dark:text-white">
+      <div className="prose prose-lg dark:prose-invert mx-auto max-w-4xl">
+        <h1 className="text-primary-900 mb-8 font-serif text-4xl font-bold dark:text-white">
           Privacy Policy
         </h1>
-        <p className="text-sm text-gray-600 dark:text-gray-400">
-          Last updated: February 2026
-        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">Last updated: February 2026</p>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Data Controller
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -37,7 +37,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Information We Collect
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -53,18 +53,18 @@ export default function PrivacyPolicyPage() {
               <strong>Cookies and Similar Technologies:</strong> We use cookies to enhance your
               experience, analyze site traffic, and deliver personalized advertising. For more
               details, please see our{' '}
-              <a
+              <Link
                 href="/cookie-policy"
                 className="text-primary-600 hover:text-primary-800 dark:text-primary-400 dark:hover:text-primary-300"
               >
                 Cookie Policy
-              </a>
+              </Link>
               .
             </li>
             <li>
-              <strong>Advertising Data:</strong> When you visit our site, Google AdSense may
-              collect information about your browsing behavior to show you relevant advertisements.
-              This includes data such as your IP address, browser type, and pages you visit.
+              <strong>Advertising Data:</strong> When you visit our site, Google AdSense may collect
+              information about your browsing behavior to show you relevant advertisements. This
+              includes data such as your IP address, browser type, and pages you visit.
             </li>
             <li>
               <strong>Analytics Data:</strong> We may use analytics services to understand how
@@ -74,7 +74,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Legal Basis for Processing
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -86,23 +86,23 @@ export default function PrivacyPolicyPage() {
               your data for advertising and analytics purposes.
             </li>
             <li>
-              <strong>Legitimate Interests:</strong> We process data to improve our website,
-              analyze usage patterns, and ensure website security.
+              <strong>Legitimate Interests:</strong> We process data to improve our website, analyze
+              usage patterns, and ensure website security.
             </li>
             <li>
-              <strong>Legal Obligations:</strong> We may process data to comply with applicable
-              laws and regulations.
+              <strong>Legal Obligations:</strong> We may process data to comply with applicable laws
+              and regulations.
             </li>
           </ul>
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Your Rights
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
-            Under the General Data Protection Regulation (GDPR) and other applicable data
-            protection laws, you have the following rights:
+            Under the General Data Protection Regulation (GDPR) and other applicable data protection
+            laws, you have the following rights:
           </p>
           <ul className="mb-4 ml-6 list-disc space-y-2 text-gray-700 dark:text-gray-300">
             <li>
@@ -130,12 +130,12 @@ export default function PrivacyPolicyPage() {
               interests or for direct marketing purposes.
             </li>
             <li>
-              <strong>Right to Withdraw Consent:</strong> If processing is based on consent, you
-              can withdraw it at any time by updating your cookie preferences.
+              <strong>Right to Withdraw Consent:</strong> If processing is based on consent, you can
+              withdraw it at any time by updating your cookie preferences.
             </li>
             <li>
-              <strong>Right to Complain:</strong> You have the right to lodge a complaint with
-              your local data protection supervisory authority.
+              <strong>Right to Complain:</strong> You have the right to lodge a complaint with your
+              local data protection supervisory authority.
             </li>
           </ul>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -151,7 +151,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Data Sharing and Third Parties
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -161,8 +161,7 @@ export default function PrivacyPolicyPage() {
             <li>
               <strong>Google AdSense:</strong> We use Google AdSense to display advertisements on
               our website. Google may collect and process data about your visits to this and other
-              websites to provide personalized ads. You can learn more about how Google uses data
-              at{' '}
+              websites to provide personalized ads. You can learn more about how Google uses data at{' '}
               <a
                 href="https://policies.google.com/privacy"
                 target="_blank"
@@ -185,7 +184,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Data Retention
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -197,7 +196,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             International Data Transfers
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -209,7 +208,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Security
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -221,7 +220,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Changes to This Policy
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -232,7 +231,7 @@ export default function PrivacyPolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Contact Us
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">

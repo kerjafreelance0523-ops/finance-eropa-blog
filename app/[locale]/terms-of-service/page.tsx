@@ -4,22 +4,21 @@ import siteMetadata from '@/data/siteMetadata'
 
 export const metadata = genPageMetadata({
   title: 'Terms of Service',
-  description: 'Terms of Service for WealthEuro - Read our terms and conditions for using our website.',
+  description:
+    'Terms of Service for WealthEuro - Read our terms and conditions for using our website.',
 })
 
 export default function TermsOfServicePage() {
   return (
     <SectionContainer>
-      <div className="prose prose-lg mx-auto max-w-4xl dark:prose-invert">
-        <h1 className="mb-8 font-serif text-4xl font-bold text-primary-900 dark:text-white">
+      <div className="prose prose-lg dark:prose-invert mx-auto max-w-4xl">
+        <h1 className="text-primary-900 mb-8 font-serif text-4xl font-bold dark:text-white">
           Terms of Service
         </h1>
-        <p className="text-sm text-gray-600 dark:text-gray-400">
-          Last updated: February 2026
-        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">Last updated: February 2026</p>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Acceptance of Terms
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -30,7 +29,7 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Use of the Website
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -38,37 +37,36 @@ export default function TermsOfServicePage() {
           </p>
           <ul className="mb-4 ml-6 list-disc space-y-2 text-gray-700 dark:text-gray-300">
             <li>Use the Website in any way that violates any applicable law or regulation</li>
-            <li>
-              Transmit any malicious code, viruses, or harmful materials through the Website
-            </li>
+            <li>Transmit any malicious code, viruses, or harmful materials through the Website</li>
             <li>Attempt to gain unauthorized access to any part of the Website</li>
             <li>Interfere with or disrupt the Website or servers connected to the Website</li>
             <li>
-              Use automated systems or software to extract data from the Website without our
-              express written permission
+              Use automated systems or software to extract data from the Website without our express
+              written permission
             </li>
           </ul>
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Content and Intellectual Property
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
             All content on this Website, including articles, images, graphics, logos, and software,
-            is the property of {siteMetadata.headerTitle} or its content suppliers and is protected by
-            copyright, trademark, and other intellectual property laws. You may not reproduce,
+            is the property of {siteMetadata.headerTitle} or its content suppliers and is protected
+            by copyright, trademark, and other intellectual property laws. You may not reproduce,
             distribute, modify, or create derivative works from any content without our express
             written permission.
           </p>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
             You may view and download content for your personal, non-commercial use only, provided
-            you retain all copyright and other proprietary notices contained in the original content.
+            you retain all copyright and other proprietary notices contained in the original
+            content.
           </p>
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Disclaimer of Warranties
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -81,9 +79,7 @@ export default function TermsOfServicePage() {
               Website
             </li>
             <li>The availability, functionality, or uninterrupted access to the Website</li>
-            <li>
-              That the Website will be free from errors, viruses, or other harmful components
-            </li>
+            <li>That the Website will be free from errors, viruses, or other harmful components</li>
           </ul>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
             <strong>Important:</strong> Content on this site is for information only and is not
@@ -94,7 +90,7 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Limitation of Liability
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -112,7 +108,7 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Third-Party Links and Services
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -125,7 +121,7 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Modifications to the Website
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -136,19 +132,19 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Changes to Terms
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
-            We reserve the right to modify these Terms of Service at any time. We will notify you
-            of any material changes by posting the new terms on this page and updating the "Last
+            We reserve the right to modify these Terms of Service at any time. We will notify you of
+            any material changes by posting the new terms on this page and updating the "Last
             updated" date. Your continued use of the Website after such changes constitutes your
             acceptance of the new terms.
           </p>
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Governing Law
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -160,7 +156,7 @@ export default function TermsOfServicePage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Contact Information
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">

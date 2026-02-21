@@ -4,22 +4,21 @@ import CookiePreferencesButton from '@/components/CookiePreferencesButton'
 
 export const metadata = genPageMetadata({
   title: 'Cookie Policy',
-  description: 'Cookie Policy for WealthEuro - Learn about how we use cookies and manage your preferences.',
+  description:
+    'Cookie Policy for WealthEuro - Learn about how we use cookies and manage your preferences.',
 })
 
 export default function CookiePolicyPage() {
   return (
     <SectionContainer>
-      <div className="prose prose-lg mx-auto max-w-4xl dark:prose-invert">
-        <h1 className="mb-8 font-serif text-4xl font-bold text-primary-900 dark:text-white">
+      <div className="prose prose-lg dark:prose-invert mx-auto max-w-4xl">
+        <h1 className="text-primary-900 mb-8 font-serif text-4xl font-bold dark:text-white">
           Cookie Policy
         </h1>
-        <p className="text-sm text-gray-600 dark:text-gray-400">
-          Last updated: February 2026
-        </p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">Last updated: February 2026</p>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             What Are Cookies?
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -31,7 +30,7 @@ export default function CookiePolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             How We Use Cookies
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -54,15 +53,15 @@ export default function CookiePolicyPage() {
             </li>
             <li>
               <strong>Advertising Cookies:</strong> These cookies are used to deliver advertisements
-              that are relevant to you and your interests. They also help measure the
-              effectiveness of advertising campaigns. We use Google AdSense, which may set cookies to
-              show you personalized ads based on your browsing behavior.
+              that are relevant to you and your interests. They also help measure the effectiveness
+              of advertising campaigns. We use Google AdSense, which may set cookies to show you
+              personalized ads based on your browsing behavior.
             </li>
           </ul>
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Cookies We Use
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -72,20 +71,20 @@ export default function CookiePolicyPage() {
             <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
               <thead className="bg-gray-50 dark:bg-gray-800">
                 <tr>
-                  <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:text-gray-300">
+                  <th className="px-4 py-3 text-left text-xs font-medium tracking-wider text-gray-700 uppercase dark:text-gray-300">
                     Cookie Name
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:text-gray-300">
+                  <th className="px-4 py-3 text-left text-xs font-medium tracking-wider text-gray-700 uppercase dark:text-gray-300">
                     Purpose
                   </th>
-                  <th className="px-4 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-700 dark:text-gray-300">
+                  <th className="px-4 py-3 text-left text-xs font-medium tracking-wider text-gray-700 uppercase dark:text-gray-300">
                     Duration
                   </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200 bg-white dark:divide-gray-700 dark:bg-gray-900">
                 <tr>
-                  <td className="whitespace-nowrap px-4 py-3 text-sm text-gray-700 dark:text-gray-300">
+                  <td className="px-4 py-3 text-sm whitespace-nowrap text-gray-700 dark:text-gray-300">
                     cookie_consent
                   </td>
                   <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">
@@ -94,7 +93,7 @@ export default function CookiePolicyPage() {
                   <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">1 year</td>
                 </tr>
                 <tr>
-                  <td className="whitespace-nowrap px-4 py-3 text-sm text-gray-700 dark:text-gray-300">
+                  <td className="px-4 py-3 text-sm whitespace-nowrap text-gray-700 dark:text-gray-300">
                     Google AdSense cookies
                   </td>
                   <td className="px-4 py-3 text-sm text-gray-700 dark:text-gray-300">
@@ -120,7 +119,7 @@ export default function CookiePolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Managing Your Cookie Preferences
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -129,15 +128,9 @@ export default function CookiePolicyPage() {
             non-essential cookies. You can change your preferences at any time by:
           </p>
           <ul className="mb-4 ml-6 list-disc space-y-2 text-gray-700 dark:text-gray-300">
-            <li>
-              Clicking the "Cookie Settings" link in the footer of any page
-            </li>
-            <li>
-              Using the "Update preferences" button below on this page
-            </li>
-            <li>
-              Clearing your browser cookies and revisiting the site
-            </li>
+            <li>Clicking the "Cookie Settings" link in the footer of any page</li>
+            <li>Using the "Update preferences" button below on this page</li>
+            <li>Clearing your browser cookies and revisiting the site</li>
           </ul>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
             Please note that if you reject non-essential cookies, you may still see advertisements,
@@ -150,7 +143,7 @@ export default function CookiePolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Third-Party Cookies
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -171,7 +164,7 @@ export default function CookiePolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Browser Settings
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">
@@ -225,7 +218,7 @@ export default function CookiePolicyPage() {
         </section>
 
         <section className="mt-8">
-          <h2 className="mb-4 font-serif text-2xl font-semibold text-primary-900 dark:text-white">
+          <h2 className="text-primary-900 mb-4 font-serif text-2xl font-semibold dark:text-white">
             Changes to This Policy
           </h2>
           <p className="mb-4 leading-relaxed text-gray-700 dark:text-gray-300">

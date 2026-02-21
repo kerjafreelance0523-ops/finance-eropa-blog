@@ -8,7 +8,7 @@ export default function CookiePreferencesButton() {
   return (
     <button
       onClick={handleClick}
-      className="rounded-lg bg-primary-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
+      className="bg-primary-600 hover:bg-primary-700 focus:ring-primary-500 rounded-lg px-6 py-3 text-sm font-medium text-white transition-colors focus:ring-2 focus:ring-offset-2 focus:outline-none"
       aria-label="Update cookie preferences"
     >
       Update preferences

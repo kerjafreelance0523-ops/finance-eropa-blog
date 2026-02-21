@@ -1,6 +1,15 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
+
+interface AdsByGoogle {
+  requestNonPersonalizedAds?: number
+}
+declare global {
+  interface Window {
+    adsbygoogle?: unknown[] & AdsByGoogle
+  }
+}
 
 interface ConsentAwareAdSenseProps {
   publisherId: string
@@ -39,41 +48,44 @@ export default function ConsentAwareAdSense({ publisherId }: ConsentAwareAdSense
   const scriptLoadedRef = useRef(false)
   const nonPersonalizedSetRef = useRef(false)
 
-  const loadAdSenseScript = (nonPersonalized: boolean) => {
-    if (scriptLoadedRef.current) {
-      // Script already loaded, just update non-personalized flag if needed
-      if (nonPersonalized && !nonPersonalizedSetRef.current) {
-        if (typeof window !== 'undefined') {
-          ;(window as any).adsbygoogle = (window as any).adsbygoogle || []
-          ;(window as any).adsbygoogle.requestNonPersonalizedAds = 1
-          nonPersonalizedSetRef.current = true
+  const loadAdSenseScript = useCallback(
+    (nonPersonalized: boolean) => {
+      if (scriptLoadedRef.current) {
+        // Script already loaded, just update non-personalized flag if needed
+        if (nonPersonalized && !nonPersonalizedSetRef.current) {
+          if (typeof window !== 'undefined') {
+            window.adsbygoogle = window.adsbygoogle || []
+            window.adsbygoogle.requestNonPersonalizedAds = 1
+            nonPersonalizedSetRef.current = true
+          }
+        }
+        return
+      }
+
+      // Create script element
+      const script = document.createElement('script')
+      script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisherId}`
+      script.async = true
+      script.crossOrigin = 'anonymous'
+      script.setAttribute('data-ad-client', publisherId)
+
+      // Set non-personalized ads before script loads if needed
+      if (nonPersonalized) {
+        script.onload = () => {
+          if (typeof window !== 'undefined') {
+            window.adsbygoogle = window.adsbygoogle || []
+            window.adsbygoogle.requestNonPersonalizedAds = 1
+            nonPersonalizedSetRef.current = true
+          }
         }
       }
-      return
-    }
 
-    // Create script element
-    const script = document.createElement('script')
-    script.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisherId}`
-    script.async = true
-    script.crossOrigin = 'anonymous'
-    script.setAttribute('data-ad-client', publisherId)
-
-    // Set non-personalized ads before script loads if needed
-    if (nonPersonalized) {
-      script.onload = () => {
-        if (typeof window !== 'undefined') {
-          ;(window as any).adsbygoogle = (window as any).adsbygoogle || []
-          ;(window as any).adsbygoogle.requestNonPersonalizedAds = 1
-          nonPersonalizedSetRef.current = true
-        }
-      }
-    }
-
-    // Append to head
-    document.head.appendChild(script)
-    scriptLoadedRef.current = true
-  }
+      // Append to head
+      document.head.appendChild(script)
+      scriptLoadedRef.current = true
+    },
+    [publisherId]
+  )
 
   useEffect(() => {
     const checkAndLoad = () => {
@@ -105,7 +117,7 @@ export default function ConsentAwareAdSense({ publisherId }: ConsentAwareAdSense
     return () => {
       window.removeEventListener('cookie-consent-updated', handleConsentUpdate)
     }
-  }, [publisherId])
+  }, [publisherId, loadAdSenseScript])
 
   // This component doesn't render anything visible
   return null

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 
 const COOKIE_NAME = 'cookie_consent'
@@ -87,7 +88,7 @@ export default function CookieConsentBanner() {
 
   return (
     <div
-      className="fixed bottom-0 left-0 right-0 z-50 border-t border-gray-200 bg-gray-900 px-4 py-4 shadow-lg dark:border-gray-700 dark:bg-gray-950"
+      className="fixed right-0 bottom-0 left-0 z-50 border-t border-gray-200 bg-gray-900 px-4 py-4 shadow-lg dark:border-gray-700 dark:bg-gray-950"
       role="dialog"
       aria-label="Cookie consent"
       aria-modal="true"
@@ -97,26 +98,26 @@ export default function CookieConsentBanner() {
           <p className="text-sm leading-relaxed text-white">
             We use cookies and similar technologies for ads and analytics. You can accept or reject
             non-essential cookies.{' '}
-            <a
+            <Link
               href="/cookie-policy"
-              className="text-primary-400 underline hover:text-primary-300"
+              className="text-primary-400 hover:text-primary-300 underline"
             >
               Learn more
-            </a>
+            </Link>
             .
           </p>
         </div>
         <div className="flex shrink-0 gap-3">
           <button
             onClick={handleReject}
-            className="rounded-lg border border-gray-600 bg-transparent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+            className="focus:ring-primary-500 rounded-lg border border-gray-600 bg-transparent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-gray-800 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:outline-none"
             aria-label="Reject non-essential cookies"
           >
             Reject
           </button>
           <button
             onClick={handleAccept}
-            className="rounded-lg bg-primary-600 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 focus:ring-offset-gray-900"
+            className="bg-primary-600 hover:bg-primary-700 focus:ring-primary-500 rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:outline-none"
             aria-label="Accept all cookies"
           >
             Accept
