@@ -1093,6 +1093,60 @@
     }
   },
   {
+    "title": "ECB 2026 en Bitcoin-kwantumaanvalscenario's",
+    "date": "2026-02-19T00:00:00.000Z",
+    "tags": ["Bitcoin", "Kwantumcomputing", "Aanvalscenario's", "Marktimpact"],
+    "summary": "ECB-rentetarieven 2026 en eurozone-inflatie 1,9% bepalen het macro-kader. Bitcoin-kwantumbedreiging: realistische scenario's – gerichte UTXO's, geen instant uitwissing.",
+    "images": ["/static/images/blog/bitcoin-quantum-attack-scenarios-hero.webp"],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "keywords": [
+      "ECB interest rates 2026",
+      "eurozone inflation 1.9%",
+      "Bitcoin quantum threat",
+      "Satoshi 1M BTC",
+      "EZB Zinssätze 2026"
+    ],
+    "type": "Blog",
+    "readingTime": { "text": "5 min read", "minutes": 4.06, "time": 243600, "words": 812 },
+    "slug": "bitcoin-quantum-attack-scenarios",
+    "path": "blog/bitcoin-quantum-attack-scenarios",
+    "filePath": "blog/nl/bitcoin-quantum-attack-scenarios.mdx",
+    "toc": [
+      {
+        "value": "Eurozone-inflatie 1,9% en macro-context",
+        "url": "#eurozone-inflatie-19-en-macro-context",
+        "depth": 2
+      },
+      {
+        "value": "Bitcoin-kwantumbedreiging: waar aanvallen op gericht zouden zijn",
+        "url": "#bitcoin-kwantumbedreiging-waar-aanvallen-op-gericht-zouden-zijn",
+        "depth": 2
+      },
+      {
+        "value": "Terwijl doemsdagkoppen domineren, wijzen data op beperkte impact",
+        "url": "#terwijl-doemsdagkoppen-domineren-wijzen-data-op-beperkte-impact",
+        "depth": 2
+      },
+      {
+        "value": "EU-geldbeleidsvooruitzicht 2026 en conclusie",
+        "url": "#eu-geldbeleidsvooruitzicht-2026-en-conclusie",
+        "depth": 2
+      }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "ECB 2026 en Bitcoin-kwantumaanvalscenario's",
+      "datePublished": "2026-02-19T00:00:00.000Z",
+      "dateModified": "2026-02-19T00:00:00.000Z",
+      "description": "ECB-rentetarieven 2026 en eurozone-inflatie 1,9% bepalen het macro-kader. Bitcoin-kwantumbedreiging: realistische scenario's – gerichte UTXO's, geen instant uitwissing.",
+      "image": "/static/images/blog/bitcoin-quantum-attack-scenarios-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/bitcoin-quantum-attack-scenarios"
+    }
+  },
+  {
     "title": "ECB-rentetarieven 2026, Bitcoin-kwantumbedreiging en ethiek van kwantum-upgrades",
     "date": "2026-02-19T00:00:00.000Z",
     "tags": ["Bitcoin", "Kwantumcomputing", "Governance", "Eigendomsrechten"],

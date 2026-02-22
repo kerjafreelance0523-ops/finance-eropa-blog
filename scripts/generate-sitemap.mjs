@@ -1,11 +1,8 @@
 /**
  * Generate sitemap.xml from Contentlayer data.
  *
- * NOTE: This project uses a static, online-generated sitemap at public/sitemap.xml.
- * This script is for reference/fallback only. Do not run unless you intend to
- * regenerate the sitemap from Contentlayer (it will overwrite public/sitemap.xml).
- *
- * Run after build (contentlayer generated): node scripts/generate-sitemap.mjs
+ * Runs automatically after every build via scripts/postbuild.mjs.
+ * Run manually after build: node scripts/generate-sitemap.mjs
  * Output: public/sitemap.xml
  */
 import { writeFileSync, mkdirSync } from 'fs'
@@ -76,7 +73,7 @@ function addUrl(urls, pathname, lastmod = null, priority = 0.8) {
   if (pathname.startsWith('http')) {
     loc = pathname
   } else {
-    const pathNorm = pathname.replace(/^\/+/, '')
+    const pathNorm = pathname.replace(/\/+/g, '/').replace(/^\/+/, '').replace(/\/$/, '')
     const raw = (SITE_URL + (pathNorm ? '/' + pathNorm : '')).replace(/\/$/, '')
     const trailing = pathname === '' || pathname.endsWith('/')
     loc = raw + (trailing ? '/' : '')
@@ -88,13 +85,12 @@ async function generate() {
   const published = allBlogs.filter(isPublished)
   const urls = []
 
-  // Static pages (default locale = en, no prefix)
+  // Static pages (default locale = en, no prefix). Exclude sitemap/ — sitemap must not index itself.
   const staticPaths = [
     { path: '', priority: 1.0 },
     { path: 'blog/', priority: 0.8 },
     { path: 'tags/', priority: 0.8 },
     { path: 'about/', priority: 0.8 },
-    { path: 'sitemap/', priority: 0.8 },
     { path: 'privacy-policy', priority: 0.7 },
     { path: 'cookie-policy', priority: 0.7 },
     { path: 'terms-of-service', priority: 0.7 },
@@ -115,7 +111,6 @@ async function generate() {
     addUrl(urls, prefix + 'blog/', new Date(), 0.64)
     addUrl(urls, prefix + 'tags/', new Date(), 0.64)
     addUrl(urls, prefix + 'about/', new Date(), 0.64)
-    addUrl(urls, prefix + 'sitemap/', new Date(), 0.64)
 
     // Blog pagination
     const totalBlogPages = Math.max(1, Math.ceil(localePosts.length / POSTS_PER_PAGE))
@@ -124,14 +119,10 @@ async function generate() {
       addUrl(urls, pathname, localePosts[0]?.date || new Date(), 0.64)
     }
 
-    // Tag pages (index of tags = already added as prefix + 'tags/')
+    // Tag pages: only index page 1 per tag (SEO best practice; avoid thin pagination)
     for (const tagSlug of Object.keys(tagCounts)) {
+      if (!tagSlug) continue
       addUrl(urls, prefix + 'tags/' + encodeURIComponent(tagSlug) + '/', new Date(), 0.64)
-      const count = tagCounts[tagSlug] || 0
-      const tagPages = Math.max(1, Math.ceil(count / POSTS_PER_PAGE))
-      for (let p = 2; p <= tagPages; p++) {
-        addUrl(urls, prefix + 'tags/' + encodeURIComponent(tagSlug) + '/page/' + p + '/', new Date(), 0.51)
-      }
     }
 
     // Post URLs
@@ -141,8 +132,11 @@ async function generate() {
     }
   }
 
+  // Deduplicate by loc (same URL can be added from static paths + per-locale)
+  const uniqueUrls = Array.from(new Map(urls.map((u) => [u.loc, u])).values())
+
   // Sort: home first, then by priority desc, then by path
-  urls.sort((a, b) => {
+  uniqueUrls.sort((a, b) => {
     if (a.loc === SITE_URL + '/') return -1
     if (b.loc === SITE_URL + '/') return 1
     if (b.priority !== a.priority) return b.priority - a.priority
@@ -156,14 +150,14 @@ async function generate() {
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-${urls.map((u) => urlEntry(u.loc, u.lastmod, u.priority)).join('')}
+${uniqueUrls.map((u) => urlEntry(u.loc, u.lastmod, u.priority)).join('')}
 </urlset>
 `
 
   const outPath = path.join(OUT_DIR, 'sitemap.xml')
   mkdirSync(OUT_DIR, { recursive: true })
   writeFileSync(outPath, xml, 'utf8')
-  console.log(`Sitemap written: ${outPath} (${urls.length} URLs)`)
+  console.log(`Sitemap written: ${outPath} (${uniqueUrls.length} URLs)`)
 }
 
 export default generate
