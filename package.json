@@ -4,7 +4,20 @@
   "private": true,
   "pnpm": {
     "overrides": {
-      "punycode": "2.3.1"
+      "punycode": "2.3.1",
+      "next-themes": "0.4.6"
+    },
+    "peerDependencyRules": {
+      "allowAny": [
+        "react",
+        "react-dom"
+      ]
+    },
+    "allowedDeprecatedVersions": {
+      "formidable": "1.2.6",
+      "glob": "7.2.3",
+      "inflight": "1.0.6",
+      "superagent": "3.8.1"
     }
   },
   "scripts": {
