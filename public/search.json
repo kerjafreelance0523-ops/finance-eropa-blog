@@ -1,5 +1,621 @@
 [
   {
+    "title": "Berlin S-Bahn-Hack: 550 €/Monat Transportersparnis = 75.000 € Renten-Boost",
+    "date": "2026-02-26T00:00:00.000Z",
+    "tags": ["Europa", "Berlin", "Transport", "Sparen", "Rente"],
+    "summary": "S-Bahn vs Taxi: 72.000 € über 12 Jahre bei 3 % Zinseszins. Berliner und Amsterdamer Pendler verwandeln Transportersparnis in STOXX-Portfolio-Wachstum. 550 €/Monat, wie automatisieren. Tagesspiegel.",
+    "images": [
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart1.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.25, "time": 375000, "words": 1250 },
+    "slug": "berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "path": "blog/berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "filePath": "blog/de/berlin-s-bahn-hack-550-month-75k-retirement-boost.mdx",
+    "toc": [
+      {
+        "value": "S-Bahn 12 €/Tag vs Taxi 38 €/Tag: die monatliche Lücke",
+        "url": "#s-bahn-12-tag-vs-taxi-38-tag-die-monatliche-lücke",
+        "depth": 2
+      },
+      {
+        "value": "10-Jahres-Zinseszins: 55.000 € bis 72.000 € bei 3 %",
+        "url": "#10-jahres-zinseszins-55000--bis-72000--bei-3-",
+        "depth": 2
+      },
+      {
+        "value": "Wenn der S-Bahn-Hack nicht aufgeht",
+        "url": "#wenn-der-s-bahn-hack-nicht-aufgeht",
+        "depth": 2
+      },
+      {
+        "value": "Produktivität und Zeit: 3 h Stau vs 45 min S-Bahn",
+        "url": "#produktivität-und-zeit-3-h-stau-vs-45-min-s-bahn",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahmeeffekte", "url": "#fazit-und-mitnahmeeffekte", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Berlin S-Bahn-Hack: 550 €/Monat Transportersparnis = 75.000 € Renten-Boost",
+      "datePublished": "2026-02-26T00:00:00.000Z",
+      "dateModified": "2026-02-26T00:00:00.000Z",
+      "description": "S-Bahn vs Taxi: 72.000 € über 12 Jahre bei 3 % Zinseszins. Berliner und Amsterdamer Pendler verwandeln Transportersparnis in STOXX-Portfolio-Wachstum. 550 €/Monat, wie automatisieren. Tagesspiegel.",
+      "image": "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/berlin-s-bahn-hack-550-month-75k-retirement-boost"
+    }
+  },
+  {
+    "title": "Berlin S-Bahn Hack: €550/Month Transport Savings = €75K Retirement Boost",
+    "date": "2026-02-26T00:00:00.000Z",
+    "tags": ["Europe", "Berlin", "Transport", "Savings", "Retirement"],
+    "summary": "S-Bahn vs taxi: €72K over 12 years at 3% compound. Berlin and Amsterdam commuters turn transport savings into STOXX portfolio growth. €550/month, how to automate. Tagesspiegel.",
+    "images": [
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart1.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.42, "time": 385200, "words": 1284 },
+    "slug": "berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "path": "blog/berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "filePath": "blog/en/berlin-s-bahn-hack-550-month-75k-retirement-boost.mdx",
+    "toc": [
+      {
+        "value": "S-Bahn €12/day vs taxi €38/day: the monthly gap",
+        "url": "#s-bahn-12day-vs-taxi-38day-the-monthly-gap",
+        "depth": 2
+      },
+      {
+        "value": "10-year compound: €55K to €72K at 3%",
+        "url": "#10-year-compound-55k-to-72k-at-3",
+        "depth": 2
+      },
+      {
+        "value": "When the S-Bahn hack does not add up",
+        "url": "#when-the-s-bahn-hack-does-not-add-up",
+        "depth": 2
+      },
+      {
+        "value": "Productivity and time: 3hr traffic vs 45min S-Bahn",
+        "url": "#productivity-and-time-3hr-traffic-vs-45min-s-bahn",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Berlin S-Bahn Hack: €550/Month Transport Savings = €75K Retirement Boost",
+      "datePublished": "2026-02-26T00:00:00.000Z",
+      "dateModified": "2026-02-26T00:00:00.000Z",
+      "description": "S-Bahn vs taxi: €72K over 12 years at 3% compound. Berlin and Amsterdam commuters turn transport savings into STOXX portfolio growth. €550/month, how to automate. Tagesspiegel.",
+      "image": "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/berlin-s-bahn-hack-550-month-75k-retirement-boost"
+    }
+  },
+  {
+    "title": "Berlin S-Bahn-hack: €550/maand transportbesparing = €75K pensioenboost",
+    "date": "2026-02-26T00:00:00.000Z",
+    "tags": ["Europa", "Berlijn", "Transport", "Sparen", "Pensioen"],
+    "summary": "S-Bahn vs taxi: €72K over 12 jaar bij 3% compound. Berlijnse en Amsterdamse forenzen zetten transportbesparing om in STOXX-portefeuillegroei. €550/maand, hoe automatiseren. Tagesspiegel.",
+    "images": [
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart1.webp",
+      "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.16, "time": 369600, "words": 1232 },
+    "slug": "berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "path": "blog/berlin-s-bahn-hack-550-month-75k-retirement-boost",
+    "filePath": "blog/nl/berlin-s-bahn-hack-550-month-75k-retirement-boost.mdx",
+    "toc": [
+      {
+        "value": "S-Bahn €12/dag vs taxi €38/dag: de maandelijkse kloof",
+        "url": "#s-bahn-12dag-vs-taxi-38dag-de-maandelijkse-kloof",
+        "depth": 2
+      },
+      {
+        "value": "10-jaars compound: €55K tot €72K bij 3%",
+        "url": "#10-jaars-compound-55k-tot-72k-bij-3",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer de S-Bahn-hack niet uitkomt",
+        "url": "#wanneer-de-s-bahn-hack-niet-uitkomt",
+        "depth": 2
+      },
+      {
+        "value": "Productiviteit en tijd: 3u file vs 45min S-Bahn",
+        "url": "#productiviteit-en-tijd-3u-file-vs-45min-s-bahn",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Berlin S-Bahn-hack: €550/maand transportbesparing = €75K pensioenboost",
+      "datePublished": "2026-02-26T00:00:00.000Z",
+      "dateModified": "2026-02-26T00:00:00.000Z",
+      "description": "S-Bahn vs taxi: €72K over 12 jaar bij 3% compound. Berlijnse en Amsterdamse forenzen zetten transportbesparing om in STOXX-portefeuillegroei. €550/maand, hoe automatiseren. Tagesspiegel.",
+      "image": "/static/images/blog/berlin-s-bahn-hack-550-month-75k-retirement-boost-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/berlin-s-bahn-hack-550-month-75k-retirement-boost"
+    }
+  },
+  {
+    "title": "Frankreichs 40/30/30-Regel: Warum das CAC40-Budget die US-50/30/20 schlägt",
+    "date": "2026-02-25T00:00:00.000Z",
+    "tags": ["Europa", "Frankreich", "CAC40", "Budget", "Persönliche Finanzen"],
+    "summary": "50/30/20 für französische Gesundheitsversorgung und Mutuelle anpassen. Warum Pariser Planer Londoner Ausgeber bei EZB-Lockerung schlagen. 40/30/30-Regel, PEA, CAC40. Mitnahmeeffekte. Boursorama, Les Echos.",
+    "images": [
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart1.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.02, "time": 361200, "words": 1204 },
+    "slug": "france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "path": "blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "filePath": "blog/de/france-40-30-30-rule-cac40-budget-beats-us-50-30-20.mdx",
+    "toc": [
+      {
+        "value": "Warum 50/30/20 in Frankreich scheitert: Gesundheitsversorgung und Gebühren",
+        "url": "#warum-503020-in-frankreich-scheitert-gesundheitsversorgung-und-gebühren",
+        "depth": 2
+      },
+      {
+        "value": "40/30/30 in der Praxis: 3.000 € Leben, 2.000 € Sparen, 1.500 € Spielen",
+        "url": "#403030-in-der-praxis-3000--leben-2000--sparen-1500--spielen",
+        "depth": 2
+      },
+      { "value": "Wenn 40/30/30 nicht reicht", "url": "#wenn-403030-nicht-reicht", "depth": 2 },
+      {
+        "value": "Zeitachse: Alter 25 bis 45 mit 40/30/30",
+        "url": "#zeitachse-alter-25-bis-45-mit-403030",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahmeeffekte", "url": "#fazit-und-mitnahmeeffekte", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Frankreichs 40/30/30-Regel: Warum das CAC40-Budget die US-50/30/20 schlägt",
+      "datePublished": "2026-02-25T00:00:00.000Z",
+      "dateModified": "2026-02-25T00:00:00.000Z",
+      "description": "50/30/20 für französische Gesundheitsversorgung und Mutuelle anpassen. Warum Pariser Planer Londoner Ausgeber bei EZB-Lockerung schlagen. 40/30/30-Regel, PEA, CAC40. Mitnahmeeffekte. Boursorama, Les Echos.",
+      "image": "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/france-40-30-30-rule-cac40-budget-beats-us-50-30-20"
+    }
+  },
+  {
+    "title": "France's 40/30/30 Rule: Why CAC40 Budget Beats the US 50/30/20",
+    "date": "2026-02-25T00:00:00.000Z",
+    "tags": ["Europe", "France", "CAC40", "Budget", "Personal finance"],
+    "summary": "Adjust 50/30/20 for French healthcare and mutuelle. Why Paris planners beat London spenders during ECB easing. 40/30/30 rule, PEA, CAC40. Takeaways. Boursorama, Les Echos.",
+    "images": [
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart1.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.305, "time": 378300, "words": 1261 },
+    "slug": "france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "path": "blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "filePath": "blog/en/france-40-30-30-rule-cac40-budget-beats-us-50-30-20.mdx",
+    "toc": [
+      {
+        "value": "Why 50/30/20 fails in France: healthcare and fees",
+        "url": "#why-503020-fails-in-france-healthcare-and-fees",
+        "depth": 2
+      },
+      {
+        "value": "40/30/30 in practice: €3K living, €2K saving, €1.5K playing",
+        "url": "#403030-in-practice-3k-living-2k-saving-15k-playing",
+        "depth": 2
+      },
+      { "value": "When 40/30/30 is not enough", "url": "#when-403030-is-not-enough", "depth": 2 },
+      {
+        "value": "Timeline: Age 25 to 45 with 40/30/30",
+        "url": "#timeline-age-25-to-45-with-403030",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "France's 40/30/30 Rule: Why CAC40 Budget Beats the US 50/30/20",
+      "datePublished": "2026-02-25T00:00:00.000Z",
+      "dateModified": "2026-02-25T00:00:00.000Z",
+      "description": "Adjust 50/30/20 for French healthcare and mutuelle. Why Paris planners beat London spenders during ECB easing. 40/30/30 rule, PEA, CAC40. Takeaways. Boursorama, Les Echos.",
+      "image": "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/france-40-30-30-rule-cac40-budget-beats-us-50-30-20"
+    }
+  },
+  {
+    "title": "Frankrijks 40/30/30-regel: waarom het CAC40-budget de VS 50/30/20 verslaat",
+    "date": "2026-02-25T00:00:00.000Z",
+    "tags": ["Europa", "Frankrijk", "CAC40", "Budget", "Persoonlijke financiën"],
+    "summary": "50/30/20 aanpassen voor Franse zorg en mutuelle. Waarom Parijse planners London-spenders verslaan bij ECB-verruiming. 40/30/30-regel, PEA, CAC40. Takeaways. Boursorama, Les Echos.",
+    "images": [
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart1.webp",
+      "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "6 min read", "minutes": 5.965, "time": 357900, "words": 1193 },
+    "slug": "france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "path": "blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20",
+    "filePath": "blog/nl/france-40-30-30-rule-cac40-budget-beats-us-50-30-20.mdx",
+    "toc": [
+      {
+        "value": "Waarom 50/30/20 faalt in Frankrijk: zorg en kosten",
+        "url": "#waarom-503020-faalt-in-frankrijk-zorg-en-kosten",
+        "depth": 2
+      },
+      {
+        "value": "40/30/30 in de praktijk: €3K leven, €2K sparen, €1,5K spelen",
+        "url": "#403030-in-de-praktijk-3k-leven-2k-sparen-15k-spelen",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer 40/30/30 niet genoeg is",
+        "url": "#wanneer-403030-niet-genoeg-is",
+        "depth": 2
+      },
+      {
+        "value": "Tijdlijn: 25 tot 45 jaar met 40/30/30",
+        "url": "#tijdlijn-25-tot-45-jaar-met-403030",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Frankrijks 40/30/30-regel: waarom het CAC40-budget de VS 50/30/20 verslaat",
+      "datePublished": "2026-02-25T00:00:00.000Z",
+      "dateModified": "2026-02-25T00:00:00.000Z",
+      "description": "50/30/20 aanpassen voor Franse zorg en mutuelle. Waarom Parijse planners London-spenders verslaan bij ECB-verruiming. 40/30/30-regel, PEA, CAC40. Takeaways. Boursorama, Les Echos.",
+      "image": "/static/images/blog/france-40-30-30-rule-cac40-budget-beats-us-50-30-20-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/france-40-30-30-rule-cac40-budget-beats-us-50-30-20"
+    }
+  },
+  {
+    "title": "Niederlande 'Liquidity Masters': Wie die AEX die EU-Small-Caps-Rally anführt",
+    "date": "2026-02-24T00:00:00.000Z",
+    "tags": ["Europa", "Niederlande", "AEX", "Liquidität", "Trading"],
+    "summary": "10.000-€-Bargeldreserve erklärt niederländische Outperformance gegenüber deutschem Hortung. Amsterdamer Dry-Powder-Strategie und AEX-Liquiditätsvorteil 2026. 1.000 €/Monat, 250.000-€-Vorteil. IEX.nl, Beurs.nl.",
+    "images": [
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart1.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "6 min read", "minutes": 5.82, "time": 349200, "words": 1164 },
+    "slug": "dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "path": "blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "filePath": "blog/de/dutch-liquidity-masters-aex-leads-eu-small-caps-rally.mdx",
+    "toc": [
+      {
+        "value": "Dry Powder und das niederländische Geldprofil",
+        "url": "#dry-powder-und-das-niederländische-geldprofil",
+        "depth": 2
+      },
+      {
+        "value": "NL vs DE Portfoliorenditen: was die Zahlen zeigen",
+        "url": "#nl-vs-de-portfoliorenditen-was-die-zahlen-zeigen",
+        "depth": 2
+      },
+      {
+        "value": "Wenn der Liquiditätsvorteil überzeichnet wird",
+        "url": "#wenn-der-liquiditätsvorteil-überzeichnet-wird",
+        "depth": 2
+      },
+      {
+        "value": "1.000 €/Monat Dry Powder und der langfristige Vorteil",
+        "url": "#1000-monat-dry-powder-und-der-langfristige-vorteil",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahmeeffekte", "url": "#fazit-und-mitnahmeeffekte", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Niederlande 'Liquidity Masters': Wie die AEX die EU-Small-Caps-Rally anführt",
+      "datePublished": "2026-02-24T00:00:00.000Z",
+      "dateModified": "2026-02-24T00:00:00.000Z",
+      "description": "10.000-€-Bargeldreserve erklärt niederländische Outperformance gegenüber deutschem Hortung. Amsterdamer Dry-Powder-Strategie und AEX-Liquiditätsvorteil 2026. 1.000 €/Monat, 250.000-€-Vorteil. IEX.nl, Beurs.nl.",
+      "image": "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/dutch-liquidity-masters-aex-leads-eu-small-caps-rally"
+    }
+  },
+  {
+    "title": "Dutch 'Liquidity Masters': How AEX Leads the EU Small Caps Rally",
+    "date": "2026-02-24T00:00:00.000Z",
+    "tags": ["Europe", "Netherlands", "AEX", "Liquidity", "Trading"],
+    "summary": "€10K cash reserve explains Dutch outperformance versus German hoarding. Amsterdam dry-powder strategy and AEX liquidity edge in 2026. €1K/month, €250K edge. IEX.nl, Beurs.nl.",
+    "images": [
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart1.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.25, "time": 375000, "words": 1250 },
+    "slug": "dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "path": "blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "filePath": "blog/en/dutch-liquidity-masters-aex-leads-eu-small-caps-rally.mdx",
+    "toc": [
+      {
+        "value": "Dry powder and the Dutch money profile",
+        "url": "#dry-powder-and-the-dutch-money-profile",
+        "depth": 2
+      },
+      {
+        "value": "NL vs DE portfolio returns: what the numbers show",
+        "url": "#nl-vs-de-portfolio-returns-what-the-numbers-show",
+        "depth": 2
+      },
+      {
+        "value": "When the liquidity edge is overstated",
+        "url": "#when-the-liquidity-edge-is-overstated",
+        "depth": 2
+      },
+      {
+        "value": "€1K/month dry powder and the long-term edge",
+        "url": "#1kmonth-dry-powder-and-the-long-term-edge",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Dutch 'Liquidity Masters': How AEX Leads the EU Small Caps Rally",
+      "datePublished": "2026-02-24T00:00:00.000Z",
+      "dateModified": "2026-02-24T00:00:00.000Z",
+      "description": "€10K cash reserve explains Dutch outperformance versus German hoarding. Amsterdam dry-powder strategy and AEX liquidity edge in 2026. €1K/month, €250K edge. IEX.nl, Beurs.nl.",
+      "image": "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/dutch-liquidity-masters-aex-leads-eu-small-caps-rally"
+    }
+  },
+  {
+    "title": "Nederlandse 'Liquidity Masters': hoe de AEX de EU small caps-rally leidt",
+    "date": "2026-02-24T00:00:00.000Z",
+    "tags": ["Europa", "Nederland", "AEX", "Liquiditeit", "Trading"],
+    "summary": "€10K kasreserve verklaart Nederlandse outperformance versus Duitse hamstering. Amsterdam dry-powderstrategie en AEX-liquiditeitsvoordeel in 2026. €1K/maand, €250K voordeel. IEX.nl, Beurs.nl.",
+    "images": [
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart1.webp",
+      "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "6 min read", "minutes": 5.905, "time": 354300, "words": 1181 },
+    "slug": "dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "path": "blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally",
+    "filePath": "blog/nl/dutch-liquidity-masters-aex-leads-eu-small-caps-rally.mdx",
+    "toc": [
+      {
+        "value": "Dry powder en het Nederlandse geldprofiel",
+        "url": "#dry-powder-en-het-nederlandse-geldprofiel",
+        "depth": 2
+      },
+      {
+        "value": "NL vs DE portefeuillerendementen: wat de cijfers tonen",
+        "url": "#nl-vs-de-portefeuillerendementen-wat-de-cijfers-tonen",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer het liquiditeitsvoordeel overdreven is",
+        "url": "#wanneer-het-liquiditeitsvoordeel-overdreven-is",
+        "depth": 2
+      },
+      {
+        "value": "€1K/maand dry powder en het langetermijnvoordeel",
+        "url": "#1kmaand-dry-powder-en-het-langetermijnvoordeel",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Nederlandse 'Liquidity Masters': hoe de AEX de EU small caps-rally leidt",
+      "datePublished": "2026-02-24T00:00:00.000Z",
+      "dateModified": "2026-02-24T00:00:00.000Z",
+      "description": "€10K kasreserve verklaart Nederlandse outperformance versus Duitse hamstering. Amsterdam dry-powderstrategie en AEX-liquiditeitsvoordeel in 2026. €1K/maand, €250K voordeel. IEX.nl, Beurs.nl.",
+      "image": "/static/images/blog/dutch-liquidity-masters-aex-leads-eu-small-caps-rally-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/dutch-liquidity-masters-aex-leads-eu-small-caps-rally"
+    }
+  },
+  {
+    "title": "Italiens 'Family-Hero'-Falle: Warum der FTSE MIB den STOXX 600 unterperformt",
+    "date": "2026-02-23T00:00:00.000Z",
+    "tags": ["Europa", "Italien", "FTSE MIB", "Psychologie", "Familienfinanzen"],
+    "summary": "Italienische Nonni-Finanzierung und Family-Hero-Geldverhalten schaden Portfoliorenditen gegenüber niederländischer Disziplin. Warum der FTSE MIB dem STOXX 600 hinterherhinkt. 6% vs 12%, 72.000 € Kosten. Wie ausbalancieren. Daten: Eurostat.",
+    "images": [
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart1.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.2, "time": 372000, "words": 1240 },
+    "slug": "italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "path": "blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "filePath": "blog/de/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600.mdx",
+    "toc": [
+      {
+        "value": "Der Family Hero und Geldstatus in der mediterranen Finanzwelt",
+        "url": "#der-family-hero-und-geldstatus-in-der-mediterranen-finanzwelt",
+        "depth": 2
+      },
+      {
+        "value": "Italien 6 % vs Niederlande 12 %: was die Daten nahelegen",
+        "url": "#italien-6--vs-niederlande-12--was-die-daten-nahelegen",
+        "depth": 2
+      },
+      {
+        "value": "Wenn die Family-Hero-Erzählung überzieht",
+        "url": "#wenn-die-family-hero-erzählung-überzieht",
+        "depth": 2
+      },
+      {
+        "value": "500 €/Monat Familienunterstützung und 72.000 € entgangene Gewinne",
+        "url": "#500-monat-familienunterstützung-und-72000--entgangene-gewinne",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahmeeffekte", "url": "#fazit-und-mitnahmeeffekte", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Italiens 'Family-Hero'-Falle: Warum der FTSE MIB den STOXX 600 unterperformt",
+      "datePublished": "2026-02-23T00:00:00.000Z",
+      "dateModified": "2026-02-23T00:00:00.000Z",
+      "description": "Italienische Nonni-Finanzierung und Family-Hero-Geldverhalten schaden Portfoliorenditen gegenüber niederländischer Disziplin. Warum der FTSE MIB dem STOXX 600 hinterherhinkt. 6% vs 12%, 72.000 € Kosten. Wie ausbalancieren. Daten: Eurostat.",
+      "image": "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600"
+    }
+  },
+  {
+    "title": "Italy's 'Family Hero' Trap: Why FTSE MIB Underperforms the STOXX 600",
+    "date": "2026-02-23T00:00:00.000Z",
+    "tags": ["Europe", "Italy", "FTSE MIB", "Psychology", "Family finance"],
+    "summary": "Italian nonni funding and family-hero money behaviour hurt portfolio returns versus Dutch discipline. Why FTSE MIB lags STOXX 600. 6% vs 12%, €72K cost. How to balance. Data: Eurostat.",
+    "images": [
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart1.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.745, "time": 404700, "words": 1349 },
+    "slug": "italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "path": "blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "filePath": "blog/en/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600.mdx",
+    "toc": [
+      {
+        "value": "The family hero and money status in Mediterranean finance",
+        "url": "#the-family-hero-and-money-status-in-mediterranean-finance",
+        "depth": 2
+      },
+      {
+        "value": "Italy 6% vs Netherlands 12%: what the data suggests",
+        "url": "#italy-6-vs-netherlands-12-what-the-data-suggests",
+        "depth": 2
+      },
+      {
+        "value": "When the family-hero narrative is overstated",
+        "url": "#when-the-family-hero-narrative-is-overstated",
+        "depth": 2
+      },
+      {
+        "value": "€500/month family support and €72K missed gains",
+        "url": "#500month-family-support-and-72k-missed-gains",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Italy's 'Family Hero' Trap: Why FTSE MIB Underperforms the STOXX 600",
+      "datePublished": "2026-02-23T00:00:00.000Z",
+      "dateModified": "2026-02-23T00:00:00.000Z",
+      "description": "Italian nonni funding and family-hero money behaviour hurt portfolio returns versus Dutch discipline. Why FTSE MIB lags STOXX 600. 6% vs 12%, €72K cost. How to balance. Data: Eurostat.",
+      "image": "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600"
+    }
+  },
+  {
+    "title": "Italiës 'Family Hero'-val: waarom de FTSE MIB achterblijft bij de STOXX 600",
+    "date": "2026-02-23T00:00:00.000Z",
+    "tags": ["Europa", "Italië", "FTSE MIB", "Psychologie", "Gezinsfinanciën"],
+    "summary": "Italiaanse nonni-financiering en family-hero-geldgedrag schaden portefeuillerendementen ten opzichte van Nederlandse discipline. Waarom de FTSE MIB achterloopt op de STOXX 600. 6% vs 12%, 72.000 € kosten. Hoe balanceren. Data: Eurostat.",
+    "images": [
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart1.webp",
+      "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.42, "time": 385200, "words": 1284 },
+    "slug": "italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "path": "blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600",
+    "filePath": "blog/nl/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600.mdx",
+    "toc": [
+      {
+        "value": "De family hero en geldstatus in mediterrane financiën",
+        "url": "#de-family-hero-en-geldstatus-in-mediterrane-financiën",
+        "depth": 2
+      },
+      {
+        "value": "Italië 6% vs Nederland 12%: wat de data suggereert",
+        "url": "#italië-6-vs-nederland-12-wat-de-data-suggereert",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer het family-hero-verhaal overdreven is",
+        "url": "#wanneer-het-family-hero-verhaal-overdreven-is",
+        "depth": 2
+      },
+      {
+        "value": "500 €/maand familieondersteuning en 72.000 € gemiste winsten",
+        "url": "#500-maand-familieondersteuning-en-72000--gemiste-winsten",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Italiës 'Family Hero'-val: waarom de FTSE MIB achterblijft bij de STOXX 600",
+      "datePublished": "2026-02-23T00:00:00.000Z",
+      "dateModified": "2026-02-23T00:00:00.000Z",
+      "description": "Italiaanse nonni-financiering en family-hero-geldgedrag schaden portefeuillerendementen ten opzichte van Nederlandse discipline. Waarom de FTSE MIB achterloopt op de STOXX 600. 6% vs 12%, 72.000 € kosten. Hoe balanceren. Data: Eurostat.",
+      "image": "/static/images/blog/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/italy-family-hero-trap-ftse-mib-underperforms-stoxx-600"
+    }
+  },
+  {
     "title": "Bester Krypto-ETF 2026: SOL & ETH Kursziel Richtung 10.000 $",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Krypto", "ETF", 2026, "Solana", "Ethereum"],
@@ -45,6 +661,58 @@
       "description": "Ethereum ETF Europa und Solana ETF könnten ETH und SOL bis 2026 anheben. Bitwise: ETFs könnten über 100 % des neuen Angebots kaufen. SOL Kursprognose und ETH Staking.",
       "image": "/static/images/blog/5-altcoins-etf-driven-sol-eth-10k-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/de/5-altcoins-etf-driven-sol-eth-10k-2026"
+    }
+  },
+  {
+    "title": "DCA-Krypto in Europa: Die entspannteste Strategie, 100 €/Monat zu investieren",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["DCA", "Bitcoin", "Europa", "Krypto", "Investieren"],
+    "summary": "Markttiming ist schwer bei EZB-Zinsen und Krypto-Volatilität. DCA lässt Sie Bitcoin oder Ethereum aus Europa mit minimaler Entscheidungsmüdigkeit investieren. Euro-Durchschnittskosten erklärt.",
+    "images": [
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart1.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.94, "time": 176400, "words": 588 },
+    "slug": "dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "path": "blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "filePath": "blog/de/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026.mdx",
+    "toc": [
+      {
+        "value": "Was ist DCA und warum passt es zu europäischen Anlegern",
+        "url": "#was-ist-dca-und-warum-passt-es-zu-europäischen-anlegern",
+        "depth": 2
+      },
+      {
+        "value": "Einmalanlage vs DCA: einfacher Vergleich",
+        "url": "#einmalanlage-vs-dca-einfacher-vergleich",
+        "depth": 2
+      },
+      {
+        "value": "DCA automatisch einrichten (Auto-Invest)",
+        "url": "#dca-automatisch-einrichten-auto-invest",
+        "depth": 2
+      },
+      {
+        "value": "Paare, Vor- und Nachteile, Risikohinweis",
+        "url": "#paare-vor--und-nachteile-risikohinweis",
+        "depth": 2
+      },
+      { "value": "Fazit", "url": "#fazit", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "DCA-Krypto in Europa: Die entspannteste Strategie, 100 €/Monat zu investieren",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Markttiming ist schwer bei EZB-Zinsen und Krypto-Volatilität. DCA lässt Sie Bitcoin oder Ethereum aus Europa mit minimaler Entscheidungsmüdigkeit investieren. Euro-Durchschnittskosten erklärt.",
+      "image": "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026"
     }
   },
   {
@@ -96,6 +764,58 @@
     }
   },
   {
+    "title": "Deutschlands 'Scrooge-Effekt': Warum der DAX bei EZB-Zinsen senkt überperformt",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Europa", "DAX", "EZB", "Psychologie", "Sparen"],
+    "summary": "Berliner Sparer schlagen Italiener 2:1 bei STOXX-ATH. Geldwachsamkeit und deutsche Sparerpsychologie erklären DAX-Stärke bei EZB-Zinssenkungen 2026. Sentix 4,2, Scrooge-Effekt.",
+    "images": [
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart1.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.38, "time": 382800, "words": 1276 },
+    "slug": "germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "path": "blog/germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "filePath": "blog/de/germany-scrooge-effect-dax-outperforms-ecb-cuts.mdx",
+    "toc": [
+      {
+        "value": "Geldpersönlichkeit und EZB-Zinssenkungen: warum Deutsche sich anders verhalten",
+        "url": "#geldpersönlichkeit-und-ezb-zinssenkungen-warum-deutsche-sich-anders-verhalten",
+        "depth": 2
+      },
+      {
+        "value": "DAX vs FTSE und Südeuropa: was die Zahlen nahelegen",
+        "url": "#dax-vs-ftse-und-südeuropa-was-die-zahlen-nahelegen",
+        "depth": 2
+      },
+      {
+        "value": "Wenn die Scrooge-Erzählung überzieht",
+        "url": "#wenn-die-scrooge-erzählung-überzieht",
+        "depth": 2
+      },
+      {
+        "value": "Die 2000-€/Monat-Hortung und was sie für Portfolios bedeutet",
+        "url": "#die-2000-monat-hortung-und-was-sie-für-portfolios-bedeutet",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahmeeffekte", "url": "#fazit-und-mitnahmeeffekte", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Deutschlands 'Scrooge-Effekt': Warum der DAX bei EZB-Zinsen senkt überperformt",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Berliner Sparer schlagen Italiener 2:1 bei STOXX-ATH. Geldwachsamkeit und deutsche Sparerpsychologie erklären DAX-Stärke bei EZB-Zinssenkungen 2026. Sentix 4,2, Scrooge-Effekt.",
+      "image": "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/germany-scrooge-effect-dax-outperforms-ecb-cuts"
+    }
+  },
+  {
     "title": "Beste AI-Krypto 2026: DASH, ZEN, RENDER Hidden Gems",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Krypto", "Privacy", 2026, "KI", "Altcoins"],
@@ -143,6 +863,58 @@
       "description": "Privacy Coin DASH kaufen und ZEN Crypto Wallet treffen beste AI-Krypto 2026. RENDER Token Preis, Altcoins zum Explodieren. Binance und Bitwise zu Hidden Gems.",
       "image": "/static/images/blog/hidden-gems-privacy-ai-dash-zen-render-altseason-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/de/hidden-gems-privacy-ai-dash-zen-render-altseason-2026"
+    }
+  },
+  {
+    "title": "So kaufen Sie Ihr erstes Bitcoin in Europa sicher (Schritt-für-Schritt-Anleitung)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Bitcoin", "Europa", "Anfänger", "Krypto", "SEPA"],
+    "summary": "Viele Europäer wollen Bitcoin, haben aber Angst vor KYC, SEPA und Betrug. Diese Anleitung führt Sie von null zu Ihren ersten 100 € in BTC: Börsenwahl, Verifizierung, Einzahlung und Sicherheit.",
+    "images": [
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart1.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "5 min read", "minutes": 4.185, "time": 251100, "words": 837 },
+    "slug": "how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "path": "blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "filePath": "blog/de/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Warum EU-Regulierung den Bitcoin-Kauf sicherer macht",
+        "url": "#warum-eu-regulierung-den-bitcoin-kauf-sicherer-macht",
+        "depth": 2
+      },
+      {
+        "value": "Schritt 1 – Wählen Sie eine seriöse Krypto-Börse",
+        "url": "#schritt-1--wählen-sie-eine-seriöse-krypto-börse",
+        "depth": 2
+      },
+      {
+        "value": "Schritte 2–5: Konto, Verifizierung, Einzahlung, Kauf, Sicherheit",
+        "url": "#schritte-25-konto-verifizierung-einzahlung-kauf-sicherheit",
+        "depth": 2
+      },
+      {
+        "value": "Warum ich für meine Euro-Geschäfte persönlich Binance nutze",
+        "url": "#warum-ich-für-meine-euro-geschäfte-persönlich-binance-nutze",
+        "depth": 2
+      },
+      { "value": "Fazit und Mitnahme", "url": "#fazit-und-mitnahme", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "So kaufen Sie Ihr erstes Bitcoin in Europa sicher (Schritt-für-Schritt-Anleitung)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Viele Europäer wollen Bitcoin, haben aber Angst vor KYC, SEPA und Betrug. Diese Anleitung führt Sie von null zu Ihren ersten 100 € in BTC: Börsenwahl, Verifizierung, Einzahlung und Sicherheit.",
+      "image": "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026"
     }
   },
   {
@@ -494,6 +1266,153 @@
     }
   },
   {
+    "title": "Spot vs Futures bei Binance: Risiken, Chancen und was EU-Händler wissen müssen",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Binance", "Krypto", "Trading", "Europa", "Risiko"],
+    "summary": "Viele Europäer sehen virale Futures-Gewinne und steigen blind ein. Der Unterschied zwischen Spot und Futures kann Ihr Konto buchstäblich retten. Risiken, Hebel, EU-Kontext.",
+    "images": [
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart1.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.605, "time": 156300, "words": 521 },
+    "slug": "spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "path": "blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "filePath": "blog/de/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026.mdx",
+    "toc": [
+      { "value": "Spot-Handel definiert", "url": "#spot-handel-definiert", "depth": 2 },
+      {
+        "value": "Futures definiert: Hebel, Margin, Liquidation",
+        "url": "#futures-definiert-hebel-margin-liquidation",
+        "depth": 2
+      },
+      {
+        "value": "Für Anfänger: nur mit Spot starten",
+        "url": "#für-anfänger-nur-mit-spot-starten",
+        "depth": 2
+      },
+      {
+        "value": "Futures für Fortgeschrittene (starker Hinweis)",
+        "url": "#futures-für-fortgeschrittene-starker-hinweis",
+        "depth": 2
+      },
+      {
+        "value": "EU-Regulierung, Hebel-Limits, Fazit",
+        "url": "#eu-regulierung-hebel-limits-fazit",
+        "depth": 2
+      }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Spot vs Futures bei Binance: Risiken, Chancen und was EU-Händler wissen müssen",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Viele Europäer sehen virale Futures-Gewinne und steigen blind ein. Der Unterschied zwischen Spot und Futures kann Ihr Konto buchstäblich retten. Risiken, Hebel, EU-Kontext.",
+      "image": "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026"
+    }
+  },
+  {
+    "title": "Top 5 Krypto-Börsen für Europäer 2026 (Gebühren, SEPA und Sicherheit im Vergleich)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Krypto", "Europa", "Börsen", "SEPA", "MiCA"],
+    "summary": "Mit MiCA und neuen EU-Regeln ist die Wahl der richtigen Börse wichtiger denn je. Ein transparenter Vergleich der wichtigsten Plattformen: Gebühren, SEPA, Sicherheit.",
+    "images": [
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart1.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.165, "time": 129900, "words": 433 },
+    "slug": "top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "path": "blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "filePath": "blog/de/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared.mdx",
+    "toc": [
+      {
+        "value": "Vergleich: Gebühren, SEPA, Features",
+        "url": "#vergleich-gebühren-sepa-features",
+        "depth": 2
+      },
+      {
+        "value": "Warum ich persönlich Binance für den Großteil meines Handels nutze",
+        "url": "#warum-ich-persönlich-binance-für-den-großteil-meines-handels-nutze",
+        "depth": 2
+      },
+      { "value": "Fazit", "url": "#fazit", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 5 Krypto-Börsen für Europäer 2026 (Gebühren, SEPA und Sicherheit im Vergleich)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Mit MiCA und neuen EU-Regeln ist die Wahl der richtigen Börse wichtiger denn je. Ein transparenter Vergleich der wichtigsten Plattformen: Gebühren, SEPA, Sicherheit.",
+      "image": "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared"
+    }
+  },
+  {
+    "title": "Wo Sie Ihre Krypto in Europa aufbewahren: Börse vs Hardware-Wallet (Komplett-Guide)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Krypto", "Europa", "Sicherheit", "Wallet", "Bitcoin"],
+    "summary": "Viele Europäer kaufen Bitcoin an der Börse und fragen sich: dort lassen oder in eine Hardware-Wallet? Custodial vs non-custodial, Risiken und wann was sinnvoll ist.",
+    "images": [
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart1.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.675, "time": 160500, "words": 535 },
+    "slug": "where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "path": "blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "filePath": "blog/de/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Risiken, alles an der Börse zu lassen",
+        "url": "#risiken-alles-an-der-börse-zu-lassen",
+        "depth": 2
+      },
+      {
+        "value": "Risiko, den Private Key zu verlieren (non-custodial)",
+        "url": "#risiko-den-private-key-zu-verlieren-non-custodial",
+        "depth": 2
+      },
+      {
+        "value": "Wann die Börse trotzdem die beste Option ist",
+        "url": "#wann-die-börse-trotzdem-die-beste-option-ist",
+        "depth": 2
+      },
+      {
+        "value": "Empfohlene Aufteilung und Sicherheitsgrundlagen",
+        "url": "#empfohlene-aufteilung-und-sicherheitsgrundlagen",
+        "depth": 2
+      },
+      { "value": "Empfohlene Tools", "url": "#empfohlene-tools", "depth": 2 },
+      { "value": "Fazit", "url": "#fazit", "depth": 2 }
+    ],
+    "locale": "de",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Wo Sie Ihre Krypto in Europa aufbewahren: Börse vs Hardware-Wallet (Komplett-Guide)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Viele Europäer kaufen Bitcoin an der Börse und fragen sich: dort lassen oder in eine Hardware-Wallet? Custodial vs non-custodial, Risiken und wann was sinnvoll ist.",
+      "image": "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/de/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026"
+    }
+  },
+  {
     "title": "Best Crypto ETF 2026: SOL & ETH Price Path Toward $10K",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Crypto", "ETF", 2026, "Solana", "Ethereum"],
@@ -539,6 +1458,58 @@
       "description": "Ethereum ETF Europe and Solana ETF flows could lift ETH and SOL by 2026. Bitwise: ETFs may buy over 100% of new supply. SOL price prediction and ETH staking.",
       "image": "/static/images/blog/5-altcoins-etf-driven-sol-eth-10k-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/5-altcoins-etf-driven-sol-eth-10k-2026"
+    }
+  },
+  {
+    "title": "DCA Crypto in Europe: The Easiest Strategy to Invest €100/month Without Stress",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["DCA", "Bitcoin", "Europe", "Crypto", "Investing"],
+    "summary": "Timing the market is hard with ECB rates and crypto volatility. DCA lets you invest in Bitcoin or Ethereum from Europe with almost zero decision fatigue. Euro-cost averaging explained.",
+    "images": [
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart1.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "5 min read", "minutes": 4.85, "time": 291000, "words": 970 },
+    "slug": "dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "path": "blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "filePath": "blog/en/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026.mdx",
+    "toc": [
+      {
+        "value": "What is DCA and why it fits European investors",
+        "url": "#what-is-dca-and-why-it-fits-european-investors",
+        "depth": 2
+      },
+      {
+        "value": "Lump-sum vs DCA: a simple comparison",
+        "url": "#lump-sum-vs-dca-a-simple-comparison",
+        "depth": 2
+      },
+      {
+        "value": "How to set up DCA automatically (Auto-Invest)",
+        "url": "#how-to-set-up-dca-automatically-auto-invest",
+        "depth": 2
+      },
+      {
+        "value": "Pairs, pros and cons, and risk disclaimer",
+        "url": "#pairs-pros-and-cons-and-risk-disclaimer",
+        "depth": 2
+      },
+      { "value": "Conclusion", "url": "#conclusion", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "DCA Crypto in Europe: The Easiest Strategy to Invest €100/month Without Stress",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Timing the market is hard with ECB rates and crypto volatility. DCA lets you invest in Bitcoin or Ethereum from Europe with almost zero decision fatigue. Euro-cost averaging explained.",
+      "image": "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026"
     }
   },
   {
@@ -590,6 +1561,58 @@
     }
   },
   {
+    "title": "Germany's 'Scrooge Effect': Why DAX Outperforms During ECB Cuts",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Europe", "DAX", "ECB", "Psychology", "Savings"],
+    "summary": "Berlin savers outperform Italians 2:1 during STOXX ATH. Money vigilance and German saver psychology explain DAX strength when the ECB cuts rates in 2026. Sentix 4.2, Scrooge effect, takeaways.",
+    "images": [
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart1.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "8 min read", "minutes": 7.105, "time": 426300, "words": 1421 },
+    "slug": "germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "path": "blog/germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "filePath": "blog/en/germany-scrooge-effect-dax-outperforms-ecb-cuts.mdx",
+    "toc": [
+      {
+        "value": "Money personality and ECB rate cuts: why Germans behave differently",
+        "url": "#money-personality-and-ecb-rate-cuts-why-germans-behave-differently",
+        "depth": 2
+      },
+      {
+        "value": "DAX vs FTSE and southern Europe: what the numbers suggest",
+        "url": "#dax-vs-ftse-and-southern-europe-what-the-numbers-suggest",
+        "depth": 2
+      },
+      {
+        "value": "When the Scrooge narrative overstates the case",
+        "url": "#when-the-scrooge-narrative-overstates-the-case",
+        "depth": 2
+      },
+      {
+        "value": "The €2K/month hoard and what it means for portfolios",
+        "url": "#the-2kmonth-hoard-and-what-it-means-for-portfolios",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Germany's 'Scrooge Effect': Why DAX Outperforms During ECB Cuts",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Berlin savers outperform Italians 2:1 during STOXX ATH. Money vigilance and German saver psychology explain DAX strength when the ECB cuts rates in 2026. Sentix 4.2, Scrooge effect, takeaways.",
+      "image": "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/germany-scrooge-effect-dax-outperforms-ecb-cuts"
+    }
+  },
+  {
     "title": "Best AI Crypto 2026: DASH, ZEN, RENDER Hidden Gems Altseason",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Crypto", "Privacy", 2026, "AI", "Altcoins"],
@@ -637,6 +1660,58 @@
       "description": "Privacy coin buy DASH and ZEN crypto wallet themes meet best AI crypto 2026. RENDER token price and altcoins to explode. Binance and Bitwise on hidden gems.",
       "image": "/static/images/blog/hidden-gems-privacy-ai-dash-zen-render-altseason-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/hidden-gems-privacy-ai-dash-zen-render-altseason-2026"
+    }
+  },
+  {
+    "title": "How to Buy Your First Bitcoin in Europe Safely (Step-by-Step Guide)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Bitcoin", "Europe", "Beginners", "Crypto", "SEPA"],
+    "summary": "Most Europeans want Bitcoin but worry about KYC, SEPA and scams. This guide takes you from zero to your first €100 in BTC safely: exchange choice, verification, deposit and security basics.",
+    "images": [
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart1.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "5 min read", "minutes": 4.995, "time": 299700, "words": 999 },
+    "slug": "how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "path": "blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "filePath": "blog/en/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Why EU regulation makes buying Bitcoin safer",
+        "url": "#why-eu-regulation-makes-buying-bitcoin-safer",
+        "depth": 2
+      },
+      {
+        "value": "Step 1 – Choose a reliable crypto exchange",
+        "url": "#step-1--choose-a-reliable-crypto-exchange",
+        "depth": 2
+      },
+      {
+        "value": "Steps 2–5: Account, verification, deposit, buy, and security",
+        "url": "#steps-25-account-verification-deposit-buy-and-security",
+        "depth": 2
+      },
+      {
+        "value": "Why I personally use Binance for my Euro trades",
+        "url": "#why-i-personally-use-binance-for-my-euro-trades",
+        "depth": 2
+      },
+      { "value": "Conclusion and takeaways", "url": "#conclusion-and-takeaways", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How to Buy Your First Bitcoin in Europe Safely (Step-by-Step Guide)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Most Europeans want Bitcoin but worry about KYC, SEPA and scams. This guide takes you from zero to your first €100 in BTC safely: exchange choice, verification, deposit and security basics.",
+      "image": "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026"
     }
   },
   {
@@ -992,6 +2067,153 @@
     }
   },
   {
+    "title": "Spot vs Futures Trading on Binance: Risks, Rewards, and What EU Traders Must Know",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Binance", "Crypto", "Trading", "Europe", "Risk"],
+    "summary": "Many Europeans see viral futures profits and jump in blindly. Understanding the difference between spot and futures can literally save your account. Risks, leverage, and EU context.",
+    "images": [
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart1.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "6 min read", "minutes": 5.155, "time": 309300, "words": 1031 },
+    "slug": "spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "path": "blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "filePath": "blog/en/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026.mdx",
+    "toc": [
+      { "value": "Spot trading defined", "url": "#spot-trading-defined", "depth": 2 },
+      {
+        "value": "Futures defined: leverage, margin, and liquidation",
+        "url": "#futures-defined-leverage-margin-and-liquidation",
+        "depth": 2
+      },
+      {
+        "value": "For beginners: start with spot only",
+        "url": "#for-beginners-start-with-spot-only",
+        "depth": 2
+      },
+      {
+        "value": "Futures for advanced users (strong disclaimer)",
+        "url": "#futures-for-advanced-users-strong-disclaimer",
+        "depth": 2
+      },
+      {
+        "value": "EU regulation, leverage limits, and conclusion",
+        "url": "#eu-regulation-leverage-limits-and-conclusion",
+        "depth": 2
+      }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Spot vs Futures Trading on Binance: Risks, Rewards, and What EU Traders Must Know",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Many Europeans see viral futures profits and jump in blindly. Understanding the difference between spot and futures can literally save your account. Risks, leverage, and EU context.",
+      "image": "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026"
+    }
+  },
+  {
+    "title": "Top 5 Crypto Exchanges for Europeans in 2026 (Fees, SEPA, and Safety Compared)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Crypto", "Europe", "Exchanges", "SEPA", "MiCA"],
+    "summary": "With MiCA and new EU rules, choosing the right exchange matters more than ever. A transparent comparison of the main platforms Europeans use: fees, SEPA, and safety.",
+    "images": [
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart1.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "4 min read", "minutes": 3.715, "time": 222900, "words": 743 },
+    "slug": "top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "path": "blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "filePath": "blog/en/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared.mdx",
+    "toc": [
+      {
+        "value": "Comparison: fees, SEPA, and features",
+        "url": "#comparison-fees-sepa-and-features",
+        "depth": 2
+      },
+      {
+        "value": "Why I personally use Binance for most of my trades",
+        "url": "#why-i-personally-use-binance-for-most-of-my-trades",
+        "depth": 2
+      },
+      { "value": "Conclusion", "url": "#conclusion", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 5 Crypto Exchanges for Europeans in 2026 (Fees, SEPA, and Safety Compared)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "With MiCA and new EU rules, choosing the right exchange matters more than ever. A transparent comparison of the main platforms Europeans use: fees, SEPA, and safety.",
+      "image": "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared"
+    }
+  },
+  {
+    "title": "Where to Store Your Crypto in Europe: Exchange vs Hardware Wallet (Complete Guide)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Crypto", "Europe", "Security", "Wallet", "Bitcoin"],
+    "summary": "Many Europeans buy Bitcoin on an exchange and wonder: leave it there or move to a hardware wallet? Custodial vs non-custodial, risks and when each option makes sense.",
+    "images": [
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart1.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "6 min read", "minutes": 5.67, "time": 340200, "words": 1134 },
+    "slug": "where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "path": "blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "filePath": "blog/en/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Risks of keeping everything on an exchange",
+        "url": "#risks-of-keeping-everything-on-an-exchange",
+        "depth": 2
+      },
+      {
+        "value": "Risk of losing your private key (non-custodial)",
+        "url": "#risk-of-losing-your-private-key-non-custodial",
+        "depth": 2
+      },
+      {
+        "value": "When an exchange is still the best option",
+        "url": "#when-an-exchange-is-still-the-best-option",
+        "depth": 2
+      },
+      {
+        "value": "Recommended split and security basics",
+        "url": "#recommended-split-and-security-basics",
+        "depth": 2
+      },
+      { "value": "Recommended tools", "url": "#recommended-tools", "depth": 2 },
+      { "value": "Conclusion", "url": "#conclusion", "depth": 2 }
+    ],
+    "locale": "en",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Where to Store Your Crypto in Europe: Exchange vs Hardware Wallet (Complete Guide)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Many Europeans buy Bitcoin on an exchange and wonder: leave it there or move to a hardware wallet? Custodial vs non-custodial, risks and when each option makes sense.",
+      "image": "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026"
+    }
+  },
+  {
     "title": "Beste crypto-ETF 2026: SOL & ETH koerspad richting 10.000 $",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Crypto", "ETF", 2026, "Solana", "Ethereum"],
@@ -1037,6 +2259,58 @@
       "description": "Ethereum ETF Europa en Solana ETF kunnen ETH en SOL tot 2026 optillen. Bitwise: ETF’s kunnen meer dan 100% van het nieuwe aanbod kopen. SOL koersverwachting en ETH staking.",
       "image": "/static/images/blog/5-altcoins-etf-driven-sol-eth-10k-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/nl/5-altcoins-etf-driven-sol-eth-10k-2026"
+    }
+  },
+  {
+    "title": "DCA-crypto in Europa: de makkelijkste strategie om 100 €/maand te investeren zonder stress",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["DCA", "Bitcoin", "Europa", "Crypto", "Beleggen"],
+    "summary": "Markttiming is lastig bij ECB-rente en crypto-volatiliteit. DCA laat je vanuit Europa in bitcoin of ethereum beleggen met bijna geen beslissingsmoeheid. Euro-gemiddelde-kosten uitgelegd.",
+    "images": [
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart1.webp",
+      "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "4 min read", "minutes": 3.125, "time": 187500, "words": 625 },
+    "slug": "dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "path": "blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026",
+    "filePath": "blog/nl/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026.mdx",
+    "toc": [
+      {
+        "value": "Wat is DCA en waarom past het bij Europese beleggers",
+        "url": "#wat-is-dca-en-waarom-past-het-bij-europese-beleggers",
+        "depth": 2
+      },
+      {
+        "value": "Lump-sum vs DCA: korte vergelijking",
+        "url": "#lump-sum-vs-dca-korte-vergelijking",
+        "depth": 2
+      },
+      {
+        "value": "DCA automatisch instellen (Auto-Invest)",
+        "url": "#dca-automatisch-instellen-auto-invest",
+        "depth": 2
+      },
+      {
+        "value": "Paren, voor- en nadelen, risicowaarschuwing",
+        "url": "#paren-voor--en-nadelen-risicowaarschuwing",
+        "depth": 2
+      },
+      { "value": "Conclusie", "url": "#conclusie", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "DCA-crypto in Europa: de makkelijkste strategie om 100 €/maand te investeren zonder stress",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Markttiming is lastig bij ECB-rente en crypto-volatiliteit. DCA laat je vanuit Europa in bitcoin of ethereum beleggen met bijna geen beslissingsmoeheid. Euro-gemiddelde-kosten uitgelegd.",
+      "image": "/static/images/blog/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/dca-crypto-europe-easiest-strategy-100-euro-month-without-stress-2026"
     }
   },
   {
@@ -1088,6 +2362,58 @@
     }
   },
   {
+    "title": "Duitslands 'Scrooge-effect': waarom de DAX uitblinkt bij ECB-renteverlagingen",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Europa", "DAX", "ECB", "Psychologie", "Sparen"],
+    "summary": "Berlijnse spaarders presteren 2:1 beter dan Italianen bij STOXX-ATH. Geldwaakzaamheid en Duitse spaarpsychologie verklaren DAX-sterkte bij ECB-renteverlagingen 2026. Sentix 4,2.",
+    "images": [
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart1.webp",
+      "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "7 min read", "minutes": 6.56, "time": 393600, "words": 1312 },
+    "slug": "germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "path": "blog/germany-scrooge-effect-dax-outperforms-ecb-cuts",
+    "filePath": "blog/nl/germany-scrooge-effect-dax-outperforms-ecb-cuts.mdx",
+    "toc": [
+      {
+        "value": "Geldpersoonlijkheid en ECB-renteverlagingen: waarom Duitsers anders reageren",
+        "url": "#geldpersoonlijkheid-en-ecb-renteverlagingen-waarom-duitsers-anders-reageren",
+        "depth": 2
+      },
+      {
+        "value": "DAX vs FTSE en Zuid-Europa: wat de cijfers suggereren",
+        "url": "#dax-vs-ftse-en-zuid-europa-wat-de-cijfers-suggereren",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer het Scrooge-verhaal overdrijft",
+        "url": "#wanneer-het-scrooge-verhaal-overdrijft",
+        "depth": 2
+      },
+      {
+        "value": "De 2000 €/maand-hamstering en wat die voor portefeuilles betekent",
+        "url": "#de-2000-maand-hamstering-en-wat-die-voor-portefeuilles-betekent",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Duitslands 'Scrooge-effect': waarom de DAX uitblinkt bij ECB-renteverlagingen",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Berlijnse spaarders presteren 2:1 beter dan Italianen bij STOXX-ATH. Geldwaakzaamheid en Duitse spaarpsychologie verklaren DAX-sterkte bij ECB-renteverlagingen 2026. Sentix 4,2.",
+      "image": "/static/images/blog/germany-scrooge-effect-dax-outperforms-ecb-cuts-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/germany-scrooge-effect-dax-outperforms-ecb-cuts"
+    }
+  },
+  {
     "title": "Beste AI-crypto 2026: DASH, ZEN, RENDER hidden gems",
     "date": "2026-02-22T00:00:00.000Z",
     "tags": ["Crypto", "Privacy", 2026, "AI", "Altcoins"],
@@ -1135,6 +2461,58 @@
       "description": "Privacy coin DASH kopen en ZEN crypto wallet thema's ontmoeten beste AI-crypto 2026. RENDER tokenprijs, altcoins die kunnen exploderen. Binance en Bitwise.",
       "image": "/static/images/blog/hidden-gems-privacy-ai-dash-zen-render-altseason-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/nl/hidden-gems-privacy-ai-dash-zen-render-altseason-2026"
+    }
+  },
+  {
+    "title": "Hoe koop je je eerste bitcoin in Europa veilig (stap-voor-stapgids)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Bitcoin", "Europa", "Beginners", "Crypto", "SEPA"],
+    "summary": "Veel Europeanen willen bitcoin maar zijn bezorgd over KYC, SEPA en oplichting. Deze gids brengt je van nul naar je eerste €100 in BTC: beurskeuze, verificatie, storting en basisbeveiliging.",
+    "images": [
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart1.webp",
+      "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "5 min read", "minutes": 4.195, "time": 251700, "words": 839 },
+    "slug": "how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "path": "blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026",
+    "filePath": "blog/nl/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Waarom EU-regelgeving het kopen van bitcoin veiliger maakt",
+        "url": "#waarom-eu-regelgeving-het-kopen-van-bitcoin-veiliger-maakt",
+        "depth": 2
+      },
+      {
+        "value": "Stap 1 – Kies een betrouwbare cryptobeurs",
+        "url": "#stap-1--kies-een-betrouwbare-cryptobeurs",
+        "depth": 2
+      },
+      {
+        "value": "Stappen 2–5: Account, verificatie, storting, kopen, beveiliging",
+        "url": "#stappen-25-account-verificatie-storting-kopen-beveiliging",
+        "depth": 2
+      },
+      {
+        "value": "Waarom ik persoonlijk Binance gebruik voor mijn euro-handel",
+        "url": "#waarom-ik-persoonlijk-binance-gebruik-voor-mijn-euro-handel",
+        "depth": 2
+      },
+      { "value": "Conclusie en takeaways", "url": "#conclusie-en-takeaways", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Hoe koop je je eerste bitcoin in Europa veilig (stap-voor-stapgids)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Veel Europeanen willen bitcoin maar zijn bezorgd over KYC, SEPA en oplichting. Deze gids brengt je van nul naar je eerste €100 in BTC: beurskeuze, verificatie, storting en basisbeveiliging.",
+      "image": "/static/images/blog/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/how-to-buy-first-bitcoin-europe-safely-step-by-step-guide-2026"
     }
   },
   {
@@ -1483,6 +2861,153 @@
       "description": "DeFi-schaalbaarheidsoplossingen en Chainlink-oracle-staking ondersteunen AVAX, LINK, NEAR. Koop AVAX en NEAR voor 2026. Layer2-vooruitzicht van Money.com en Bitwise.",
       "image": "/static/images/blog/scalability-kings-avax-link-near-moonshot-2026-hero.webp",
       "url": "https://finance-eropa-blog.vercel.app/nl/scalability-kings-avax-link-near-moonshot-2026"
+    }
+  },
+  {
+    "title": "Spot vs futures handelen op Binance: risico’s, kansen en wat EU-handelaren moeten weten",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Binance", "Crypto", "Trading", "Europa", "Risico"],
+    "summary": "Veel Europeanen zien virale futureswinsten en stappen blind in. Het verschil tussen spot en futures begrijpen kan je account letterlijk redden. Risico’s, leverage en EU-context.",
+    "images": [
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart1.webp",
+      "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.485, "time": 149100, "words": 497 },
+    "slug": "spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "path": "blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026",
+    "filePath": "blog/nl/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026.mdx",
+    "toc": [
+      { "value": "Spot handelen gedefinieerd", "url": "#spot-handelen-gedefinieerd", "depth": 2 },
+      {
+        "value": "Futures gedefinieerd: leverage, margin, liquidatie",
+        "url": "#futures-gedefinieerd-leverage-margin-liquidatie",
+        "depth": 2
+      },
+      {
+        "value": "Voor beginners: alleen met spot starten",
+        "url": "#voor-beginners-alleen-met-spot-starten",
+        "depth": 2
+      },
+      {
+        "value": "Futures voor gevorderden (sterke disclaimer)",
+        "url": "#futures-voor-gevorderden-sterke-disclaimer",
+        "depth": 2
+      },
+      {
+        "value": "EU-regelgeving, hefboomlimieten, conclusie",
+        "url": "#eu-regelgeving-hefboomlimieten-conclusie",
+        "depth": 2
+      }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Spot vs futures handelen op Binance: risico’s, kansen en wat EU-handelaren moeten weten",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Veel Europeanen zien virale futureswinsten en stappen blind in. Het verschil tussen spot en futures begrijpen kan je account letterlijk redden. Risico’s, leverage en EU-context.",
+      "image": "/static/images/blog/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/spot-vs-futures-trading-binance-risks-rewards-eu-traders-must-know-2026"
+    }
+  },
+  {
+    "title": "Top 5 cryptobeurzen voor Europeanen in 2026 (fees, SEPA en veiligheid vergeleken)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Crypto", "Europa", "Beurzen", "SEPA", "MiCA"],
+    "summary": "Met MiCA en nieuwe EU-regels is de juiste beurs kiezen belangrijker dan ooit. Een transparante vergelijking van de platforms die Europeanen echt gebruiken: fees, SEPA, veiligheid.",
+    "images": [
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart1.webp",
+      "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.34, "time": 140400, "words": 468 },
+    "slug": "top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "path": "blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared",
+    "filePath": "blog/nl/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared.mdx",
+    "toc": [
+      {
+        "value": "Vergelijking: fees, SEPA en features",
+        "url": "#vergelijking-fees-sepa-en-features",
+        "depth": 2
+      },
+      {
+        "value": "Waarom ik persoonlijk Binance gebruik voor het grootste deel van mijn handel",
+        "url": "#waarom-ik-persoonlijk-binance-gebruik-voor-het-grootste-deel-van-mijn-handel",
+        "depth": 2
+      },
+      { "value": "Conclusie", "url": "#conclusie", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Top 5 cryptobeurzen voor Europeanen in 2026 (fees, SEPA en veiligheid vergeleken)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Met MiCA en nieuwe EU-regels is de juiste beurs kiezen belangrijker dan ooit. Een transparante vergelijking van de platforms die Europeanen echt gebruiken: fees, SEPA, veiligheid.",
+      "image": "/static/images/blog/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/top-5-crypto-exchanges-europeans-2026-fees-sepa-safety-compared"
+    }
+  },
+  {
+    "title": "Waar bewaar je je crypto in Europa: beurs vs hardware wallet (volledige gids)",
+    "date": "2026-02-22T00:00:00.000Z",
+    "tags": ["Crypto", "Europa", "Beveiliging", "Wallet", "Bitcoin"],
+    "summary": "Veel Europese beleggers kopen bitcoin op een beurs en vragen zich af: daar laten of naar een hardware wallet? Custodial vs non-custodial, risico’s en wanneer wat past.",
+    "images": [
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart1.webp",
+      "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-chart2.webp"
+    ],
+    "authors": ["default"],
+    "layout": "PostLayout",
+    "type": "Blog",
+    "readingTime": { "text": "3 min read", "minutes": 2.905, "time": 174300, "words": 581 },
+    "slug": "where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "path": "blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026",
+    "filePath": "blog/nl/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026.mdx",
+    "toc": [
+      {
+        "value": "Risico’s van alles op een beurs houden",
+        "url": "#risicos-van-alles-op-een-beurs-houden",
+        "depth": 2
+      },
+      {
+        "value": "Risico van verlies van je private key (non-custodial)",
+        "url": "#risico-van-verlies-van-je-private-key-non-custodial",
+        "depth": 2
+      },
+      {
+        "value": "Wanneer een beurs nog de beste optie is",
+        "url": "#wanneer-een-beurs-nog-de-beste-optie-is",
+        "depth": 2
+      },
+      {
+        "value": "Aanbevolen verdeling en basisbeveiliging",
+        "url": "#aanbevolen-verdeling-en-basisbeveiliging",
+        "depth": 2
+      },
+      { "value": "Aanbevolen tools", "url": "#aanbevolen-tools", "depth": 2 },
+      { "value": "Conclusie", "url": "#conclusie", "depth": 2 }
+    ],
+    "locale": "nl",
+    "structuredData": {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Waar bewaar je je crypto in Europa: beurs vs hardware wallet (volledige gids)",
+      "datePublished": "2026-02-22T00:00:00.000Z",
+      "dateModified": "2026-02-22T00:00:00.000Z",
+      "description": "Veel Europese beleggers kopen bitcoin op een beurs en vragen zich af: daar laten of naar een hardware wallet? Custodial vs non-custodial, risico’s en wanneer wat past.",
+      "image": "/static/images/blog/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026-hero.webp",
+      "url": "https://finance-eropa-blog.vercel.app/nl/where-to-store-crypto-europe-exchange-vs-hardware-wallet-guide-2026"
     }
   },
   {

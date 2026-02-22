@@ -9,6 +9,7 @@ import SectionContainer from '@/components/SectionContainer'
 import Image from '@/components/Image'
 import Tag from '@/components/Tag'
 import AdSlot from '@/components/AdSlot'
+import ArticleShare from '@/components/ArticleShare'
 import siteMetadata from '@/data/siteMetadata'
 import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 
@@ -25,6 +26,7 @@ interface LayoutProps {
   next?: { path: string; title: string; images?: string[] }
   prev?: { path: string; title: string; images?: string[] }
   children: ReactNode
+  shareUrl?: string
 }
 
 export default async function PostLayout({
@@ -33,11 +35,15 @@ export default async function PostLayout({
   next,
   prev,
   children,
+  shareUrl: shareUrlProp,
 }: LayoutProps) {
   const tCommon = await getTranslations('common')
   const tBlog = await getTranslations('blog')
   const { path, slug, date, title, tags, images, readingTime, summary } = content
   const heroImage = images?.[0]
+  const shareUrl =
+    shareUrlProp ||
+    (path ? `${siteMetadata.siteUrl}/${path}` : `${siteMetadata.siteUrl}/blog/${slug}`)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -148,7 +154,7 @@ export default async function PostLayout({
               </figure>
             )}
 
-            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-300 dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none min-w-0 overflow-x-hidden pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
+            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-a:decoration-primary-400 prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-100 dark:prose-a:decoration-primary-300 dark:prose-a:hover:text-white dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none min-w-0 overflow-x-hidden pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
               {children}
             </div>
 
@@ -162,6 +168,10 @@ export default async function PostLayout({
                 ))}
               </div>
             )}
+
+            <div className="border-t border-gray-200 pt-6 dark:border-gray-700">
+              <ArticleShare url={shareUrl} title={title} />
+            </div>
 
             {(next || prev) && (
               <div className="mt-8 grid grid-cols-1 gap-4 border-t border-gray-200 pt-8 sm:grid-cols-2 dark:border-gray-700">

@@ -29,12 +29,12 @@ function isChart(name) {
   return /-chart\d*\./.test(name) || (name.includes('-chart') && !name.includes('-hero'));
 }
 
-async function optimizeFile(filePath, name) {
+async function optimizeFile(filePath, name, force = false) {
   const { size: inputBytes } = await stat(filePath);
   const inputKB = inputBytes / 1024;
   const ext = extname(name).toLowerCase();
   if (ext !== '.webp' && ext !== '.png' && ext !== '.jpg' && ext !== '.jpeg') return null;
-  if (inputKB <= TARGET_KB) {
+  if (!force && inputKB <= TARGET_KB) {
     console.log(`${name}: ${inputKB.toFixed(1)} KB (already ≤ ${TARGET_KB} KB, skip)`);
     return null;
   }
@@ -49,7 +49,11 @@ async function optimizeFile(filePath, name) {
   // Reduce quality until under TARGET_KB (with a minimum quality of 60)
   for (; quality >= 60; quality -= 4) {
     buffer = await sharp(filePath)
-      .resize(width, height, { fit: 'cover', position: 'center' })
+      .resize(width, height, {
+        fit: 'contain',
+        position: 'center',
+        background: { r: 240, g: 244, b: 248 },
+      })
       .webp({ quality, effort: 6 })
       .toBuffer();
     outputKB = buffer.length / 1024;
@@ -68,6 +72,9 @@ async function optimizeFile(filePath, name) {
 }
 
 async function main() {
+  const args = process.argv.slice(2);
+  const force = args.includes('--force') || args.includes('-f');
+
   const files = await readdir(BLOG_IMAGES);
   const toProcess = files.filter(
     (f) =>
@@ -75,11 +82,11 @@ async function main() {
       (isHero(f) || isChart(f))
   );
 
-  console.log(`Optimizing ${toProcess.length} images in ${BLOG_IMAGES}\n`);
+  console.log(`Optimizing ${toProcess.length} images in ${BLOG_IMAGES}${force ? ' (--force)' : ''}\n`);
   const results = [];
   for (const name of toProcess) {
     try {
-      const r = await optimizeFile(join(BLOG_IMAGES, name), name);
+      const r = await optimizeFile(join(BLOG_IMAGES, name), name, force);
       if (r) results.push(r);
     } catch (err) {
       console.error(`Error ${name}:`, err.message);

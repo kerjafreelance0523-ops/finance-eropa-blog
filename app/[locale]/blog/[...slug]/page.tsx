@@ -124,6 +124,8 @@ export default async function Page(props: { params: Promise<{ locale: string; sl
 
   const relatedPosts = getRelatedPosts(slug, locale, post.tags || [], 3)
   const Layout = layouts[(post as Blog).layout || defaultLayout]
+  const canonicalPath = locale === 'en' ? `blog/${slug}` : `${locale}/blog/${slug}`
+  const shareUrl = `${siteMetadata.siteUrl}/${canonicalPath}`
 
   return (
     <>
@@ -131,7 +133,13 @@ export default async function Page(props: { params: Promise<{ locale: string; sl
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Layout content={mainContent} authorDetails={authorDetails} next={next} prev={prev}>
+      <Layout
+        content={mainContent}
+        authorDetails={authorDetails}
+        next={next}
+        prev={prev}
+        shareUrl={shareUrl}
+      >
         <MDXLayoutRenderer code={post.body.code} components={components} toc={post.toc} />
         <RelatedPosts posts={relatedPosts} locale={locale} />
       </Layout>

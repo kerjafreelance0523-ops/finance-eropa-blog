@@ -1,12 +1,13 @@
 @import 'tailwindcss';
-@plugin "@tailwindcss/forms";
+@plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 @source '../node_modules/pliny';
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-sans:
+    var(--font-inter), ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol', 'Noto Color Emoji';
   --font-serif: var(--font-lora), ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 
   /* Swiss Navy primary palette */
@@ -103,9 +104,11 @@
 
   .prose-invert {
     & a {
-      color: var(--color-primary-300);
+      color: var(--color-primary-100);
+      text-decoration-color: var(--color-primary-300);
       &:hover {
-        color: var(--color-primary-200);
+        color: var(--color-primary-50);
+        text-decoration-color: var(--color-primary-200);
       }
       & code {
         color: var(--color-primary-300);

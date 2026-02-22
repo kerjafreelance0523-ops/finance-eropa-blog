@@ -13,6 +13,7 @@ import ScrollTopAndComment from '@/components/ScrollTopAndComment'
 interface LayoutProps {
   content: CoreContent<Blog>
   children: ReactNode
+  shareUrl?: string
 }
 
 export default function PostBanner({ content, children }: LayoutProps) {
@@ -32,7 +33,13 @@ export default function PostBanner({ content, children }: LayoutProps) {
             >
               Home
             </Link>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="h-3 w-3" aria-hidden>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              className="h-3 w-3"
+              aria-hidden
+            >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6-6-6z" />
             </svg>
             <Link
@@ -76,10 +83,7 @@ export default function PostBanner({ content, children }: LayoutProps) {
           {children}
         </div>
         {siteMetadata.comments && (
-          <div
-            className="border-t border-gray-200 pt-8 dark:border-gray-700"
-            id="comment"
-          >
+          <div className="border-t border-gray-200 pt-8 dark:border-gray-700" id="comment">
             <Comments slug={slug} />
           </div>
         )}
