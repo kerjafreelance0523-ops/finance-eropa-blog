@@ -6,7 +6,7 @@ import siteMetadata from '@/data/siteMetadata'
 export const metadata = genPageMetadata({
   title: 'Privacy Policy',
   description:
-    'Privacy Policy for WealthEuro - Learn how we collect, use, and protect your personal data.',
+    'Privacy Policy for EuroCoinInvest - Learn how we collect, use, and protect your personal data.',
 })
 
 export default function PrivacyPolicyPage() {

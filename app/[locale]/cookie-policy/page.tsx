@@ -5,7 +5,7 @@ import CookiePreferencesButton from '@/components/CookiePreferencesButton'
 export const metadata = genPageMetadata({
   title: 'Cookie Policy',
   description:
-    'Cookie Policy for WealthEuro - Learn about how we use cookies and manage your preferences.',
+    'Cookie Policy for EuroCoinInvest - Learn about how we use cookies and manage your preferences.',
 })
 
 export default function CookiePolicyPage() {

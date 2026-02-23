@@ -74,13 +74,22 @@
   .prose {
     & a {
       color: var(--color-primary-900);
+      @variant dark {
+        color: var(--color-primary-50);
+      }
       text-decoration-color: var(--color-primary-300);
       &:hover {
         color: var(--color-primary-700);
+        @variant dark {
+          color: #fff;
+        }
         text-decoration-color: var(--color-primary-700);
       }
       & code {
         color: var(--color-primary-700);
+        @variant dark {
+          color: var(--color-primary-300);
+        }
       }
     }
     & :where(h1, h2) {
@@ -92,9 +101,15 @@
     }
     & :where(code):not(pre code) {
       color: var(--color-primary-700);
+      @variant dark {
+        color: var(--color-primary-300);
+      }
     }
     & blockquote {
       border-left-color: var(--color-primary-900);
+      @variant dark {
+        border-left-color: var(--color-primary-50);
+      }
       font-style: italic;
     }
     & :where(h1, h2, h3) {
@@ -104,10 +119,10 @@
 
   .prose-invert {
     & a {
-      color: var(--color-primary-100);
+      color: var(--color-primary-50);
       text-decoration-color: var(--color-primary-300);
       &:hover {
-        color: var(--color-primary-50);
+        color: #fff;
         text-decoration-color: var(--color-primary-200);
       }
       & code {

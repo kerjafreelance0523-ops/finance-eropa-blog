@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 export const metadata = genPageMetadata({
   title: 'Terms of Service',
   description:
-    'Terms of Service for WealthEuro - Read our terms and conditions for using our website.',
+    'Terms of Service for EuroCoinInvest - Read our terms and conditions for using our website.',
 })
 
 export default function TermsOfServicePage() {

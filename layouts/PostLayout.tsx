@@ -55,7 +55,7 @@ export default async function PostLayout({
     publisher: {
       '@type': 'Organization',
       name: siteMetadata.title,
-      logo: { '@type': 'ImageObject', url: `${siteMetadata.siteUrl}/static/images/logo.png` },
+      logo: { '@type': 'ImageObject', url: `${siteMetadata.siteUrl}${siteMetadata.siteLogo}` },
     },
     description: summary || '',
   }
@@ -154,7 +154,7 @@ export default async function PostLayout({
               </figure>
             )}
 
-            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-a:decoration-primary-400 prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-100 dark:prose-a:decoration-primary-300 dark:prose-a:hover:text-white dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none min-w-0 overflow-x-hidden pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
+            <div className="prose prose-lg prose-headings:text-primary-900 prose-a:text-primary-700 prose-a:underline prose-a:decoration-primary-400 prose-strong:text-primary-900 prose-code:text-primary-700 dark:prose-headings:text-white dark:prose-a:text-primary-50 dark:prose-a:decoration-primary-300 dark:prose-a:hover:text-white dark:prose-strong:text-white dark:prose-code:text-primary-300 max-w-none min-w-0 overflow-x-hidden pt-4 pb-8 font-serif text-gray-700 dark:text-gray-200">
               {children}
             </div>
 

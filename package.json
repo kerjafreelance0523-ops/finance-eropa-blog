@@ -23,6 +23,7 @@
   "scripts": {
     "blog:optimize-images": "node scripts/optimize-blog-images.mjs",
     "blog:check": "node scripts/validate-blog-prd.mjs",
+    "favicons": "node scripts/generate-favicons.mjs",
     "start": "next dev",
     "dev": "next dev",
     "build": "next build && NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
